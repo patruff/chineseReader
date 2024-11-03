@@ -15,6 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Delete old gh-pages branch
+        run: |
+          git push origin --delete gh-pages || true
+          git branch -D gh-pages || true
+        continue-on-error: true
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -24,19 +30,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Process dictionary
-        run: npm run process-dict
-
       - name: Build React app
         run: npm run build
         env:
           CI: false
 
       - name: Deploy
-        run: |
-          git remote set-url origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          force: true
