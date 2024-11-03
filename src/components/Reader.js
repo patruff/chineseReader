@@ -14,20 +14,24 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
   };
 
   useEffect(() => {
-    fetch(`/data/${currentText}.txt`)
-      .then(res => res.text())
-      .then(content => {
-        // For English text, ensure proper spacing and formatting
-        if (currentText === 'english') {
-          // Replace multiple newlines with a standard paragraph break
-          const formattedContent = content
-            .replace(/\n\s*\n/g, '\n\n')  // Standardize paragraph breaks
-            .replace(/\s+/g, ' ')          // Standardize spacing
-            .trim();                       // Remove extra whitespace
-          setText(formattedContent);
-        } else {
-          setText(content);
+    const basePath = process.env.PUBLIC_URL || '';
+    const fullPath = `${basePath}/data/${currentText}.txt`;
+    console.log('Attempting to fetch from:', fullPath);
+    
+    fetch(fullPath)
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
         }
+        return res.text();
+      })
+      .then(content => {
+        console.log('Content loaded, length:', content.length);
+        setText(content);
+      })
+      .catch(error => {
+        console.error('Error loading text:', error);
+        setText('Error loading text file');
       });
   }, [currentText]);
 
