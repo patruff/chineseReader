@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import PopupMenu from './PopupMenu';
 import dictionary from '../data/dictionary.json';
 
 function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, onSwitch }) {
   const [text, setText] = useState('');
-  const [pageSize, setPageSize] = useState(1000);
+  const [pageSize] = useState(1000);
+  const [selectedWord, setSelectedWord] = useState(null);
   const containerRef = useRef(null);
 
   const COMPOUND_MARKERS = {
@@ -104,6 +104,18 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
     }
   };
 
+  const handleCharacterClick = (char) => {
+    const definition = dictionary[char];
+    if (definition) {
+      setSelectedWord({
+        character: char,
+        definition: definition
+      });
+    } else {
+      setSelectedWord(null);
+    }
+  };
+
   return (
     <div ref={containerRef} className="reader-container">
       <div className="controls">
@@ -141,13 +153,21 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
         {currentPage.map((token, index) => (
           <span 
             key={position + index}
-            className={token.className}
-            style={{ whiteSpace: 'pre-wrap' }}
+            className={`${token.className} ${currentText === 'fully_parsed_chinese' ? 'clickable' : ''}`}
+            onClick={() => currentText === 'fully_parsed_chinese' && handleCharacterClick(token.text)}
           >
             {token.text}
           </span>
         ))}
       </div>
+
+      {selectedWord && (
+        <div className="dictionary-popup">
+          <h3>{selectedWord.character}</h3>
+          <p>{selectedWord.definition}</p>
+          <button onClick={() => setSelectedWord(null)}>Close</button>
+        </div>
+      )}
 
       <div className="position-info">
         Position: {position} / {tokens.length}
