@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chineseReader/static/css/main.09652beb.css",
+    "main.js": "/chineseReader/static/js/main.ac58b484.js",
+    "service-worker.js": "/chineseReader/service-worker.js",
+    "index.html": "/chineseReader/index.html",
+    "main.09652beb.css.map": "/chineseReader/static/css/main.09652beb.css.map",
+    "main.ac58b484.js.map": "/chineseReader/static/js/main.ac58b484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09652beb.css",
+    "static/js/main.ac58b484.js"
+  ]
+}
