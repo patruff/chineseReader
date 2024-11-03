@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Process dictionary
+        run: npm run process-dict
+
       - name: Build React app
         run: npm run build
         env:

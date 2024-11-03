@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import dictionary from '../data/dictionary.json';
+import dictionary from '../data/reduced_dictionary.json';
 
 function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, onSwitch }) {
   const [text, setText] = useState('');
