@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.text-token {
+  cursor: pointer;
+  padding: 2px;
+  margin: 0 1px;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-token.compound-four {
+  background-color: rgba(255, 182, 193, 0.2); /* Light pink */
+  border-radius: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-token.compound-three {
+  background-color: rgba(173, 216, 230, 0.2); /* Light blue */
+  border-radius: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-token.compound-two {
+  background-color: rgba(255, 255, 0, 0.2); /* Light yellow */
+  border-radius: 3px;
+}
+
+.text-token:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Update PopupMenu styles */
+.popup-content {
+  max-width: 80%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.compound-info {
+  margin-bottom: 15px;
+}
+
+.compound-length {
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 8px;
+}
+
+.individual-characters {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.char-definition {
+  margin: 5px 0;
+  padding: 5px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.reader-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.bookmarks {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bookmark-controls {
+  display: flex;
+  gap: 5px;
 }
+
+.text-content {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+
+.text-content p {
+  margin-bottom: 1em;
+}
+
+[data-language="english"] .text-content {
+  text-align: justify;
+  padding-right: 40px;
+}
+
+.position-info {
+  margin-top: 20px;
+  color: #666;
+}
+
+button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.compound-four { color: #e74c3c; }
+.compound-three { color: #3498db; }
+.compound-two { color: #2ecc71; } 
