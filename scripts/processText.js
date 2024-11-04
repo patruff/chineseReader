@@ -13,7 +13,33 @@ let dictionaryText = fs.readFileSync(
     'utf8'
 );
 
-// Split and parse dictionary entries
+// Helper function to clean definitions
+function cleanDefinitions(entry) {
+    // Skip entries that are just variants
+    if (entry.definitions.length === 1 && 
+        (entry.definitions[0].startsWith('variant of') ||
+         entry.definitions[0].startsWith('old variant of'))) {
+        return null;
+    }
+
+    // Filter out unhelpful definitions
+    const cleanDefs = entry.definitions.filter(def => 
+        !def.startsWith('variant of') &&
+        !def.startsWith('old variant of') &&
+        !def.startsWith('used in') &&
+        !def.startsWith('see ') &&
+        def.length > 1  // Skip very short definitions
+    );
+
+    if (cleanDefs.length === 0) return null;
+
+    return {
+        pinyin: entry.pinyin,
+        definitions: cleanDefs.slice(0, 3)  // Keep top 3 meaningful definitions
+    };
+}
+
+// Parse dictionary entries
 const entryStrings = dictionaryText.split('},{');
 const dictionaryEntries = entryStrings.map((entry, index) => {
     if (index === 0) {
@@ -55,10 +81,7 @@ dictionaryEntries.forEach(entry => {
     const char = entry.simplified || entry.traditional;
     if (usedChars.has(char)) {
         // Only include essential fields
-        minimalDictionary[char] = {
-            pinyin: entry.pinyin,
-            definitions: entry.definitions.slice(0, 3) // Limit to first 3 definitions
-        };
+        minimalDictionary[char] = cleanDefinitions(entry);
     }
 });
 
