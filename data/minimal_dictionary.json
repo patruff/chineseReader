@@ -42,17 +42,11 @@
       "character used in Taiwan as a substitute for a real name (like \"X\" in English)"
     ]
   },
-  "俊": {
-    "pinyin": "jun4",
-    "definitions": [
-      "variant of 俊[jun4]"
-    ]
-  },
+  "俊": null,
   "罔": {
     "pinyin": "wang3",
     "definitions": [
-      "to deceive",
-      "old variant of 網|网[wang3]"
+      "to deceive"
     ]
   },
   "寇": {
@@ -77,12 +71,7 @@
       "kitchen"
     ]
   },
-  "参": {
-    "pinyin": "shen1",
-    "definitions": [
-      "variant of 參|参[shen1]"
-    ]
-  },
+  "参": null,
   "以": {
     "pinyin": "yi3",
     "definitions": [
@@ -126,8 +115,7 @@
   "帆": {
     "pinyin": "fan1",
     "definitions": [
-      "to gallop",
-      "variant of 帆[fan1]"
+      "to gallop"
     ]
   },
   "帽": {
@@ -204,18 +192,8 @@
       "kindhearted"
     ]
   },
-  "暖": {
-    "pinyin": "nuan3",
-    "definitions": [
-      "variant of 暖[nuan3], warm"
-    ]
-  },
-  "橹": {
-    "pinyin": "lu3",
-    "definitions": [
-      "variant of 櫓|橹[lu3]"
-    ]
-  },
+  "暖": null,
+  "橹": null,
   "饮": {
     "pinyin": "yin4",
     "definitions": [
@@ -228,12 +206,7 @@
       "saliva"
     ]
   },
-  "法": {
-    "pinyin": "fa3",
-    "definitions": [
-      "old variant of 法[fa3]"
-    ]
-  },
+  "法": null,
   "深": {
     "pinyin": "shen1",
     "definitions": [
@@ -253,36 +226,16 @@
       "CL:隻|只[zhi1],個|个[ge4]"
     ]
   },
-  "留": {
-    "pinyin": "liu2",
-    "definitions": [
-      "old variant of 留[liu2]"
-    ]
-  },
+  "留": null,
   "糊": {
     "pinyin": "hu2",
     "definitions": [
       "congee"
     ]
   },
-  "蜂": {
-    "pinyin": "feng1",
-    "definitions": [
-      "old variant of 蜂[feng1]"
-    ]
-  },
-  "恤": {
-    "pinyin": "xu4",
-    "definitions": [
-      "variant of 恤[xu4]"
-    ]
-  },
-  "脉": {
-    "pinyin": "mai4",
-    "definitions": [
-      "variant of 脈|脉[mai4]"
-    ]
-  },
+  "蜂": null,
+  "恤": null,
+  "脉": null,
   "卒": {
     "pinyin": "zu2",
     "definitions": [
@@ -323,12 +276,7 @@
       "soul; spirit; immortal soul (that can be detached from the body)"
     ]
   },
-  "鹅": {
-    "pinyin": "e2",
-    "definitions": [
-      "variant of 鵝|鹅[e2]"
-    ]
-  },
+  "鹅": null,
   "一": {
     "pinyin": "yi1",
     "definitions": [
@@ -337,12 +285,7 @@
       "entire; whole; all; throughout"
     ]
   },
-  "丁": {
-    "pinyin": "zheng1",
-    "definitions": [
-      "used in 丁丁[zheng1zheng1]"
-    ]
-  },
+  "丁": null,
   "七": {
     "pinyin": "qi1",
     "definitions": [
@@ -390,12 +333,7 @@
       "no; not so"
     ]
   },
-  "丐": {
-    "pinyin": "gai4",
-    "definitions": [
-      "variant of 丐[gai4]"
-    ]
-  },
+  "丐": null,
   "丑": {
     "pinyin": "chou3",
     "definitions": [
@@ -452,12 +390,7 @@
       "to throw"
     ]
   },
-  "并": {
-    "pinyin": "bing4",
-    "definitions": [
-      "variant of 並|并[bing4]"
-    ]
-  },
+  "并": null,
   "中": {
     "pinyin": "zhong4",
     "definitions": [
@@ -502,12 +435,7 @@
       "to control"
     ]
   },
-  "乃": {
-    "pinyin": "nai3",
-    "definitions": [
-      "variant of 乃[nai3]"
-    ]
-  },
+  "乃": null,
   "久": {
     "pinyin": "jiu3",
     "definitions": [
@@ -543,12 +471,7 @@
       "perverse"
     ]
   },
-  "乘": {
-    "pinyin": "cheng2",
-    "definitions": [
-      "old variant of 乘[cheng2]"
-    ]
-  },
+  "乘": null,
   "乙": {
     "pinyin": "zhe2",
     "definitions": [
@@ -689,12 +612,7 @@
       "repeatedly"
     ]
   },
-  "亡": {
-    "pinyin": "wang2",
-    "definitions": [
-      "old variant of 亡[wang2]"
-    ]
-  },
+  "亡": null,
   "亢": {
     "pinyin": "kang4",
     "definitions": [
@@ -721,12 +639,7 @@
       "also"
     ]
   },
-  "享": {
-    "pinyin": "xiang3",
-    "definitions": [
-      "old variant of 享[xiang3]"
-    ]
-  },
+  "享": null,
   "京": {
     "pinyin": "jing1",
     "definitions": [
@@ -791,12 +704,7 @@
       "servant"
     ]
   },
-  "仇": {
-    "pinyin": "chou2",
-    "definitions": [
-      "variant of 仇[chou2]"
-    ]
-  },
+  "仇": null,
   "今": {
     "pinyin": "jin1",
     "definitions": [
@@ -863,12 +771,7 @@
       "classifier for pairs or sets of things"
     ]
   },
-  "仙": {
-    "pinyin": "xian1",
-    "definitions": [
-      "variant of 仙[xian1]"
-    ]
-  },
+  "仙": null,
   "仞": {
     "pinyin": "ren4",
     "definitions": [
@@ -1012,12 +915,7 @@
       "to examine"
     ]
   },
-  "似": {
-    "pinyin": "si4",
-    "definitions": [
-      "old variant of 似[si4]"
-    ]
-  },
+  "似": null,
   "但": {
     "pinyin": "dan4",
     "definitions": [
@@ -1222,12 +1120,7 @@
       "to disgrace"
     ]
   },
-  "侯": {
-    "pinyin": "hou4",
-    "definitions": [
-      "used in 閩侯|闽侯[Min3hou4] (the name of a place in Fujian)"
-    ]
-  },
+  "侯": null,
   "侵": {
     "pinyin": "qin1",
     "definitions": [
@@ -1241,13 +1134,7 @@
       "cramped; narrow"
     ]
   },
-  "便": {
-    "pinyin": "pian2",
-    "definitions": [
-      "used in 便宜[pian2yi5]",
-      "used in 便嬛[pian2xuan1]"
-    ]
-  },
+  "便": null,
   "系": {
     "pinyin": "xi4",
     "definitions": [
@@ -1268,12 +1155,7 @@
       "suddenly"
     ]
   },
-  "俉": {
-    "pinyin": "wu2",
-    "definitions": [
-      "used in 逢俉[feng2wu2]"
-    ]
-  },
+  "俉": null,
   "俎": {
     "pinyin": "zu3",
     "definitions": [
@@ -1314,12 +1196,7 @@
       "to accede"
     ]
   },
-  "俟": {
-    "pinyin": "si4",
-    "definitions": [
-      "variant of 俟[si4]"
-    ]
-  },
+  "俟": null,
   "侠": {
     "pinyin": "xia2",
     "definitions": [
@@ -1335,12 +1212,7 @@
       "to believe"
     ]
   },
-  "修": {
-    "pinyin": "xiu1",
-    "definitions": [
-      "variant of 修[xiu1]"
-    ]
-  },
+  "修": null,
   "俱": {
     "pinyin": "ju4",
     "definitions": [
@@ -1396,12 +1268,7 @@
       "hold (in ship)"
     ]
   },
-  "个": {
-    "pinyin": "ge4",
-    "definitions": [
-      "variant of 個|个[ge4]"
-    ]
-  },
+  "个": null,
   "倍": {
     "pinyin": "bei4",
     "definitions": [
@@ -1409,12 +1276,7 @@
       "double"
     ]
   },
-  "倏": {
-    "pinyin": "shu1",
-    "definitions": [
-      "variant of 倏[shu1]"
-    ]
-  },
+  "倏": null,
   "们": {
     "pinyin": "men5",
     "definitions": [
@@ -1455,12 +1317,7 @@
       "to lean on"
     ]
   },
-  "借": {
-    "pinyin": "jie4",
-    "definitions": [
-      "variant of 借[jie4]"
-    ]
-  },
+  "借": null,
   "倡": {
     "pinyin": "chang4",
     "definitions": [
@@ -1474,12 +1331,7 @@
       "urgent"
     ]
   },
-  "倦": {
-    "pinyin": "juan4",
-    "definitions": [
-      "old variant of 倦[juan4]"
-    ]
-  },
+  "倦": null,
   "伦": {
     "pinyin": "lun2",
     "definitions": [
@@ -1508,12 +1360,7 @@
       "to fall down"
     ]
   },
-  "假": {
-    "pinyin": "jia3",
-    "definitions": [
-      "variant of 假[jia3]"
-    ]
-  },
+  "假": null,
   "伟": {
     "pinyin": "wei3",
     "definitions": [
@@ -1593,12 +1440,7 @@
       "stealthily"
     ]
   },
-  "伪": {
-    "pinyin": "wei3",
-    "definitions": [
-      "variant of 偽|伪[wei3]"
-    ]
-  },
+  "伪": null,
   "傅": {
     "pinyin": "fu4",
     "definitions": [
@@ -1614,18 +1456,8 @@
       "Taiwan pr. [pang2], [bang1], [bang4]"
     ]
   },
-  "杰": {
-    "pinyin": "jie2",
-    "definitions": [
-      "variant of 傑|杰[jie2]"
-    ]
-  },
-  "傕": {
-    "pinyin": "jue2",
-    "definitions": [
-      "used in old names"
-    ]
-  },
+  "杰": null,
+  "傕": null,
   "伞": {
     "pinyin": "san3",
     "definitions": [
@@ -1718,12 +1550,7 @@
       "bureaucrat"
     ]
   },
-  "侥": {
-    "pinyin": "yao2",
-    "definitions": [
-      "used in 僬僥|僬侥[jiao1yao2]"
-    ]
-  },
+  "侥": null,
   "僧": {
     "pinyin": "seng1",
     "definitions": [
@@ -1916,36 +1743,16 @@
       "to leave (a part of the body) uncovered"
     ]
   },
-  "克": {
-    "pinyin": "ke4",
-    "definitions": [
-      "variant of 剋|克[ke4]"
-    ]
-  },
-  "免": {
-    "pinyin": "wen4",
-    "definitions": [
-      "old variant of 絻[wen4]"
-    ]
-  },
+  "克": null,
+  "免": null,
   "兔": {
     "pinyin": "tu4",
     "definitions": [
       "rabbit"
     ]
   },
-  "兖": {
-    "pinyin": "yan3",
-    "definitions": [
-      "used in 兗州|兖州[Yan3zhou1]"
-    ]
-  },
-  "兜": {
-    "pinyin": "dou1",
-    "definitions": [
-      "old variant of 兜[dou1]"
-    ]
-  },
+  "兖": null,
+  "兜": null,
   "兢": {
     "pinyin": "jing1",
     "definitions": [
@@ -2092,12 +1899,7 @@
       "(literary) to cover"
     ]
   },
-  "冑": {
-    "pinyin": "zhou4",
-    "definitions": [
-      "variant of 胄[zhou4]"
-    ]
-  },
+  "冑": null,
   "冓": {
     "pinyin": "gou4",
     "definitions": [
@@ -2110,12 +1912,7 @@
       "crown in the form of a horizontal board with hanging decorations"
     ]
   },
-  "冗": {
-    "pinyin": "rong3",
-    "definitions": [
-      "variant of 冗[rong3]"
-    ]
-  },
+  "冗": null,
   "冞": {
     "pinyin": "mi2",
     "definitions": [
@@ -2135,24 +1932,14 @@
       "burial mound (variant of 冢[zhong3])"
     ]
   },
-  "冤": {
-    "pinyin": "yuan1",
-    "definitions": [
-      "old variant of 冤[yuan1]"
-    ]
-  },
+  "冤": null,
   "冬": {
     "pinyin": "dong1",
     "definitions": [
       "(onom.) beating a drum"
     ]
   },
-  "冰": {
-    "pinyin": "bing1",
-    "definitions": [
-      "variant of 冰[bing1]"
-    ]
-  },
+  "冰": null,
   "冶": {
     "pinyin": "ye3",
     "definitions": [
@@ -2238,12 +2025,7 @@
       "several"
     ]
   },
-  "凡": {
-    "pinyin": "fan2",
-    "definitions": [
-      "variant of 凡[fan2]"
-    ]
-  },
+  "凡": null,
   "凰": {
     "pinyin": "huang2",
     "definitions": [
@@ -2257,12 +2039,7 @@
       "chi (Greek letter Χχ)"
     ]
   },
-  "凳": {
-    "pinyin": "deng4",
-    "definitions": [
-      "variant of 凳[deng4]"
-    ]
-  },
+  "凳": null,
   "凭": {
     "pinyin": "ping2",
     "definitions": [
@@ -2271,24 +2048,9 @@
       "proof"
     ]
   },
-  "凹": {
-    "pinyin": "wa1",
-    "definitions": [
-      "variant of 窪|洼[wa1]"
-    ]
-  },
-  "出": {
-    "pinyin": "chu1",
-    "definitions": [
-      "variant of 出[chu1] (classifier for plays or chapters of classical novels)"
-    ]
-  },
-  "函": {
-    "pinyin": "han2",
-    "definitions": [
-      "variant of 函[han2]"
-    ]
-  },
+  "凹": null,
+  "出": null,
+  "函": null,
   "刀": {
     "pinyin": "dao1",
     "definitions": [
@@ -2522,12 +2284,7 @@
       "to flay"
     ]
   },
-  "剩": {
-    "pinyin": "sheng4",
-    "definitions": [
-      "variant of 剩[sheng4]"
-    ]
-  },
+  "剩": null,
   "剐": {
     "pinyin": "gua3",
     "definitions": [
@@ -2562,12 +2319,7 @@
       "(bound form) to kill"
     ]
   },
-  "剿": {
-    "pinyin": "jiao3",
-    "definitions": [
-      "variant of 剿[jiao3]"
-    ]
-  },
+  "剿": null,
   "剧": {
     "pinyin": "ju4",
     "definitions": [
@@ -2595,12 +2347,7 @@
       "also pr. [kuai4]"
     ]
   },
-  "剑": {
-    "pinyin": "jian4",
-    "definitions": [
-      "variant of 劍|剑[jian4]"
-    ]
-  },
+  "剑": null,
   "剂": {
     "pinyin": "ji4",
     "definitions": [
@@ -2734,12 +2481,7 @@
       "to attend to"
     ]
   },
-  "勋": {
-    "pinyin": "xun1",
-    "definitions": [
-      "variant of 勛|勋[xun1]"
-    ]
-  },
+  "勋": null,
   "胜": {
     "pinyin": "sheng4",
     "definitions": [
@@ -2773,7 +2515,6 @@
   "勤": {
     "pinyin": "qin2",
     "definitions": [
-      "variant of 勤[qin2]",
       "solicitous"
     ]
   },
@@ -2798,12 +2539,7 @@
       "CL:把[ba3]"
     ]
   },
-  "勾": {
-    "pinyin": "gou4",
-    "definitions": [
-      "used in 勾當|勾当[gou4dang4]"
-    ]
-  },
+  "勾": null,
   "勿": {
     "pinyin": "wu4",
     "definitions": [
@@ -2818,24 +2554,9 @@
       "to take charge of"
     ]
   },
-  "匆": {
-    "pinyin": "cong1",
-    "definitions": [
-      "variant of 匆[cong1]"
-    ]
-  },
-  "匍": {
-    "pinyin": "pu2",
-    "definitions": [
-      "used in 匍匐[pu2fu2]"
-    ]
-  },
-  "匐": {
-    "pinyin": "fu2",
-    "definitions": [
-      "used in 匍匐[pu2 fu2]"
-    ]
-  },
+  "匆": null,
+  "匍": null,
+  "匐": null,
   "化": {
     "pinyin": "hua4",
     "definitions": [
@@ -2850,18 +2571,8 @@
       "north"
     ]
   },
-  "匙": {
-    "pinyin": "shi5",
-    "definitions": [
-      "used in 鑰匙|钥匙[yao4 shi5]"
-    ]
-  },
-  "匝": {
-    "pinyin": "za1",
-    "definitions": [
-      "variant of 匝[za1]"
-    ]
-  },
+  "匙": null,
+  "匝": null,
   "匠": {
     "pinyin": "jiang4",
     "definitions": [
@@ -2887,12 +2598,7 @@
       "bandit"
     ]
   },
-  "汇": {
-    "pinyin": "hui4",
-    "definitions": [
-      "variant of 匯|汇[hui4]"
-    ]
-  },
+  "汇": null,
   "匮": {
     "pinyin": "kui4",
     "definitions": [
@@ -2900,18 +2606,8 @@
       "empty"
     ]
   },
-  "奁": {
-    "pinyin": "lian2",
-    "definitions": [
-      "old variant of 奩|奁[lian2]"
-    ]
-  },
-  "匹": {
-    "pinyin": "pi3",
-    "definitions": [
-      "variant of 匹[pi3]"
-    ]
-  },
+  "奁": null,
+  "匹": null,
   "匿": {
     "pinyin": "ni4",
     "definitions": [
@@ -2932,12 +2628,7 @@
       "ten"
     ]
   },
-  "千": {
-    "pinyin": "qian1",
-    "definitions": [
-      "used in 鞦韆|秋千[qiu1qian1]"
-    ]
-  },
+  "千": null,
   "升": {
     "pinyin": "sheng1",
     "definitions": [
@@ -2985,18 +2676,8 @@
       "south"
     ]
   },
-  "博": {
-    "pinyin": "bo2",
-    "definitions": [
-      "old variant of 博[bo2]"
-    ]
-  },
-  "卜": {
-    "pinyin": "bo2",
-    "definitions": [
-      "used in 蘿蔔|萝卜[luo2 bo5]"
-    ]
-  },
+  "博": null,
+  "卜": null,
   "卞": {
     "pinyin": "bian4",
     "definitions": [
@@ -3013,16 +2694,10 @@
   "卬": {
     "pinyin": "ang2",
     "definitions": [
-      "I (regional colloquial)",
-      "variant of 昂[ang2]"
+      "I (regional colloquial)"
     ]
   },
-  "卯": {
-    "pinyin": "mao3",
-    "definitions": [
-      "old variant of 卯[mao3]"
-    ]
-  },
+  "卯": null,
   "印": {
     "pinyin": "yin4",
     "definitions": [
@@ -3080,12 +2755,7 @@
       "knee"
     ]
   },
-  "厄": {
-    "pinyin": "e4",
-    "definitions": [
-      "variant of 厄[e4]"
-    ]
-  },
+  "厄": null,
   "厔": {
     "pinyin": "zhi4",
     "definitions": [
@@ -3114,12 +2784,7 @@
       "level"
     ]
   },
-  "厕": {
-    "pinyin": "si4",
-    "definitions": [
-      "used in 茅廁|茅厕[mao2 si5]"
-    ]
-  },
+  "厕": null,
   "历": {
     "pinyin": "li4",
     "definitions": [
@@ -3289,24 +2954,14 @@
       "to receive the benefit of"
     ]
   },
-  "叩": {
-    "pinyin": "kou4",
-    "definitions": [
-      "old variant of 叩[kou4]"
-    ]
-  },
+  "叩": null,
   "只": {
     "pinyin": "zhi1",
     "definitions": [
       "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
     ]
   },
-  "叫": {
-    "pinyin": "jiao4",
-    "definitions": [
-      "variant of 叫[jiao4]"
-    ]
-  },
+  "叫": null,
   "召": {
     "pinyin": "zhao4",
     "definitions": [
@@ -3322,12 +2977,7 @@
       "to stick to a point"
     ]
   },
-  "可": {
-    "pinyin": "ke4",
-    "definitions": [
-      "used in 可汗[ke4 han2]"
-    ]
-  },
+  "可": null,
   "台": {
     "pinyin": "tai2",
     "definitions": [
@@ -3382,24 +3032,14 @@
       "to implore"
     ]
   },
-  "吃": {
-    "pinyin": "chi1",
-    "definitions": [
-      "variant of 吃[chi1]"
-    ]
-  },
+  "吃": null,
   "各": {
     "pinyin": "ge4",
     "definitions": [
       "each"
     ]
   },
-  "合": {
-    "pinyin": "he2",
-    "definitions": [
-      "variant of 合[he2]"
-    ]
-  },
+  "合": null,
   "吉": {
     "pinyin": "ji2",
     "definitions": [
@@ -3413,12 +3053,7 @@
       "to condole with"
     ]
   },
-  "同": {
-    "pinyin": "tong4",
-    "definitions": [
-      "see 衚衕|胡同[hu2 tong4]"
-    ]
-  },
+  "同": null,
   "名": {
     "pinyin": "ming2",
     "definitions": [
@@ -3450,9 +3085,9 @@
   "向": {
     "pinyin": "xiang4",
     "definitions": [
-      "variant of 向[xiang4]",
       "orientation",
-      "to turn toward"
+      "to turn toward",
+      "towards"
     ]
   },
   "君": {
@@ -3462,24 +3097,14 @@
       "gentleman"
     ]
   },
-  "吝": {
-    "pinyin": "lin4",
-    "definitions": [
-      "variant of 吝[lin4]"
-    ]
-  },
+  "吝": null,
   "吞": {
     "pinyin": "tun1",
     "definitions": [
       "to swallow"
     ]
   },
-  "吟": {
-    "pinyin": "yin2",
-    "definitions": [
-      "old variant of 吟[yin2]"
-    ]
-  },
+  "吟": null,
   "吠": {
     "pinyin": "fei4",
     "definitions": [
@@ -3492,12 +3117,7 @@
       "clogged"
     ]
   },
-  "吩": {
-    "pinyin": "fen1",
-    "definitions": [
-      "used in 吩咐[fen1fu5]"
-    ]
-  },
+  "吩": null,
   "含": {
     "pinyin": "han2",
     "definitions": [
@@ -3540,12 +3160,7 @@
       "to boast"
     ]
   },
-  "吻": {
-    "pinyin": "wen3",
-    "definitions": [
-      "variant of 吻[wen3]"
-    ]
-  },
+  "吻": null,
   "吼": {
     "pinyin": "hou3",
     "definitions": [
@@ -3602,8 +3217,7 @@
   "周": {
     "pinyin": "zhou1",
     "definitions": [
-      "week",
-      "variant of 周[zhou1]"
+      "week"
     ]
   },
   "咒": {
@@ -3637,7 +3251,6 @@
   "呼": {
     "pinyin": "hu1",
     "definitions": [
-      "variant of 呼[hu1]",
       "to call out"
     ]
   },
@@ -3654,12 +3267,7 @@
       "to roar"
     ]
   },
-  "和": {
-    "pinyin": "he2",
-    "definitions": [
-      "old variant of 和[he2]"
-    ]
-  },
+  "和": null,
   "咎": {
     "pinyin": "jiu4",
     "definitions": [
@@ -3668,12 +3276,7 @@
       "misfortune"
     ]
   },
-  "咐": {
-    "pinyin": "fu4",
-    "definitions": [
-      "used in 吩咐[fen1fu5] and 囑咐|嘱咐[zhu3fu5]"
-    ]
-  },
+  "咐": null,
   "咨": {
     "pinyin": "zi1",
     "definitions": [
@@ -3686,12 +3289,7 @@
       "8 in. length unit of Zhou dynasty"
     ]
   },
-  "咬": {
-    "pinyin": "yao3",
-    "definitions": [
-      "variant of 咬[yao3]"
-    ]
-  },
+  "咬": null,
   "笑": {
     "pinyin": "xiao4",
     "definitions": [
@@ -3806,12 +3404,7 @@
       "to suck"
     ]
   },
-  "唇": {
-    "pinyin": "chun2",
-    "definitions": [
-      "variant of 唇[chun2]"
-    ]
-  },
+  "唇": null,
   "唐": {
     "pinyin": "tang2",
     "definitions": [
@@ -3874,12 +3467,7 @@
       "wail"
     ]
   },
-  "啖": {
-    "pinyin": "dan4",
-    "definitions": [
-      "variant of 啖[dan4]"
-    ]
-  },
+  "啖": null,
   "啜": {
     "pinyin": "chuo4",
     "definitions": [
@@ -3902,12 +3490,7 @@
       "to accept"
     ]
   },
-  "啼": {
-    "pinyin": "ti2",
-    "definitions": [
-      "variant of 啼[ti2]"
-    ]
-  },
+  "啼": null,
   "喂": {
     "pinyin": "wei4",
     "definitions": [
@@ -3986,12 +3569,7 @@
       "to sigh"
     ]
   },
-  "喧": {
-    "pinyin": "xuan1",
-    "definitions": [
-      "variant of 喧[xuan1]"
-    ]
-  },
+  "喧": null,
   "喨": {
     "pinyin": "liang4",
     "definitions": [
@@ -4074,12 +3652,7 @@
       "to sigh (with emotion)"
     ]
   },
-  "叹": {
-    "pinyin": "tan4",
-    "definitions": [
-      "variant of 嘆|叹[tan4]"
-    ]
-  },
+  "叹": null,
   "嘉": {
     "pinyin": "jia1",
     "definitions": [
@@ -4099,12 +3672,7 @@
       "vomit"
     ]
   },
-  "尝": {
-    "pinyin": "chang2",
-    "definitions": [
-      "old variant of 嘗|尝[chang2]"
-    ]
-  },
+  "尝": null,
   "啸": {
     "pinyin": "xiao4",
     "definitions": [
@@ -4158,12 +3726,7 @@
       "utensil"
     ]
   },
-  "噪": {
-    "pinyin": "zao4",
-    "definitions": [
-      "variant of 噪[zao4]"
-    ]
-  },
+  "噪": null,
   "噫": {
     "pinyin": "yi1",
     "definitions": [
@@ -4242,12 +3805,7 @@
       "to make a big deal of sth"
     ]
   },
-  "嚼": {
-    "pinyin": "jiao4",
-    "definitions": [
-      "used in 倒嚼[dao3 jiao4]"
-    ]
-  },
+  "嚼": null,
   "囊": {
     "pinyin": "nang2",
     "definitions": [
@@ -4255,12 +3813,7 @@
       "pocket (for money)"
     ]
   },
-  "苏": {
-    "pinyin": "su1",
-    "definitions": [
-      "old variant of 蘇|苏[su1]"
-    ]
-  },
+  "苏": null,
   "嘱": {
     "pinyin": "zhu3",
     "definitions": [
@@ -4287,12 +3840,7 @@
       "four"
     ]
   },
-  "回": {
-    "pinyin": "hui2",
-    "definitions": [
-      "variant of 迴|回[hui2]"
-    ]
-  },
+  "回": null,
   "困": {
     "pinyin": "kun4",
     "definitions": [
@@ -4419,16 +3967,10 @@
       "Taiwan pr. [fang1]"
     ]
   },
-  "坌": {
-    "pinyin": "ben4",
-    "definitions": [
-      "variant of 坋[ben4]"
-    ]
-  },
+  "坌": null,
   "坎": {
     "pinyin": "kan3",
     "definitions": [
-      "old variant of 坎[kan3]",
       "hole"
     ]
   },
@@ -4436,16 +3978,10 @@
     "pinyin": "zuo4",
     "definitions": [
       "to sit",
-      "to take (a bus, airplane etc)",
-      "variant of 座[zuo4]"
+      "to take (a bus, airplane etc)"
     ]
   },
-  "坑": {
-    "pinyin": "keng1",
-    "definitions": [
-      "variant of 坑[keng1]"
-    ]
-  },
+  "坑": null,
   "坡": {
     "pinyin": "po1",
     "definitions": [
@@ -4453,12 +3989,7 @@
       "sloping"
     ]
   },
-  "坤": {
-    "pinyin": "kun1",
-    "definitions": [
-      "variant of 坤[kun1]"
-    ]
-  },
+  "坤": null,
   "坦": {
     "pinyin": "tan3",
     "definitions": [
@@ -4492,12 +4023,7 @@
       "thick"
     ]
   },
-  "垛": {
-    "pinyin": "duo3",
-    "definitions": [
-      "variant of 垛[duo3]"
-    ]
-  },
+  "垛": null,
   "垠": {
     "pinyin": "yin2",
     "definitions": [
@@ -4524,12 +4050,7 @@
       "angstrom"
     ]
   },
-  "埋": {
-    "pinyin": "man2",
-    "definitions": [
-      "used in 埋怨[man2 yuan4]"
-    ]
-  },
+  "埋": null,
   "城": {
     "pinyin": "cheng2",
     "definitions": [
@@ -4595,12 +4116,7 @@
       "heap"
     ]
   },
-  "堤": {
-    "pinyin": "di1",
-    "definitions": [
-      "variant of 堤[di1]"
-    ]
-  },
+  "堤": null,
   "阶": {
     "pinyin": "jie1",
     "definitions": [
@@ -4634,12 +4150,7 @@
       "recompense"
     ]
   },
-  "场": {
-    "pinyin": "chang3",
-    "definitions": [
-      "variant of 場|场[chang3]"
-    ]
-  },
+  "场": null,
   "堵": {
     "pinyin": "du3",
     "definitions": [
@@ -4674,18 +4185,8 @@
       "to model (a figure) in clay"
     ]
   },
-  "塔": {
-    "pinyin": "ta3",
-    "definitions": [
-      "old variant of 塔[ta3]"
-    ]
-  },
-  "涂": {
-    "pinyin": "tu2",
-    "definitions": [
-      "variant of 途[tu2]"
-    ]
-  },
+  "塔": null,
+  "涂": null,
   "塘": {
     "pinyin": "tang2",
     "definitions": [
@@ -4706,12 +4207,7 @@
       "to bury (the dead)"
     ]
   },
-  "坞": {
-    "pinyin": "wu4",
-    "definitions": [
-      "variant of 塢|坞[wu4]"
-    ]
-  },
+  "坞": null,
   "填": {
     "pinyin": "tian2",
     "definitions": [
@@ -4787,8 +4283,7 @@
   "墟": {
     "pinyin": "xu1",
     "definitions": [
-      "ruins",
-      "variant of 圩[xu1]"
+      "ruins"
     ]
   },
   "墨": {
@@ -4798,18 +4293,8 @@
       "CL:塊|块[kuai4]"
     ]
   },
-  "墩": {
-    "pinyin": "dun1",
-    "definitions": [
-      "old variant of 墩[dun1]"
-    ]
-  },
-  "墬": {
-    "pinyin": "di4",
-    "definitions": [
-      "variant of 地[di4]"
-    ]
-  },
+  "墩": null,
+  "墬": null,
   "堕": {
     "pinyin": "duo4",
     "definitions": [
@@ -4868,13 +4353,7 @@
       "Taiwan pr. [huo4]"
     ]
   },
-  "压": {
-    "pinyin": "ya4",
-    "definitions": [
-      "used in 壓根兒|压根儿[ya4gen1r5]",
-      "used in 壓板|压板[ya4ban3]"
-    ]
-  },
+  "压": null,
   "壕": {
     "pinyin": "hao2",
     "definitions": [
@@ -5013,12 +4492,7 @@
       "late at night"
     ]
   },
-  "大": {
-    "pinyin": "dai4",
-    "definitions": [
-      "see 大夫[dai4 fu5]"
-    ]
-  },
+  "大": null,
   "天": {
     "pinyin": "tian1",
     "definitions": [
@@ -5075,12 +4549,7 @@
       "to boast; to exaggerate"
     ]
   },
-  "夹": {
-    "pinyin": "jia2",
-    "definitions": [
-      "variant of 夾|夹[jia2]"
-    ]
-  },
+  "夹": null,
   "奄": {
     "pinyin": "yan3",
     "definitions": [
@@ -5097,12 +4566,7 @@
       "surprisingly"
     ]
   },
-  "奈": {
-    "pinyin": "nai4",
-    "definitions": [
-      "used in expressions that convey frustration and futility, such as 無奈|无奈[wu2 nai4] and 莫可奈何|莫可奈何[mo4 ke3 nai4 he2] (literary)"
-    ]
-  },
+  "奈": null,
   "奉": {
     "pinyin": "feng4",
     "definitions": [
@@ -5138,12 +4602,7 @@
       "a deed"
     ]
   },
-  "奔": {
-    "pinyin": "ben1",
-    "definitions": [
-      "variant of 奔[ben1]"
-    ]
-  },
+  "奔": null,
   "奕": {
     "pinyin": "yi4",
     "definitions": [
@@ -5198,12 +4657,7 @@
       "to exert oneself (bound form)"
     ]
   },
-  "女": {
-    "pinyin": "ru3",
-    "definitions": [
-      "old variant of 汝[ru3]"
-    ]
-  },
+  "女": null,
   "奴": {
     "pinyin": "nu2",
     "definitions": [
@@ -5255,12 +4709,7 @@
       "(used in female names)"
     ]
   },
-  "妒": {
-    "pinyin": "du4",
-    "definitions": [
-      "variant of 妒[du4]"
-    ]
-  },
+  "妒": null,
   "妓": {
     "pinyin": "ji4",
     "definitions": [
@@ -5275,18 +4724,8 @@
       "enchanting"
     ]
   },
-  "妙": {
-    "pinyin": "miao4",
-    "definitions": [
-      "variant of 妙[miao4]"
-    ]
-  },
-  "妆": {
-    "pinyin": "zhuang1",
-    "definitions": [
-      "variant of 妝|妆[zhuang1]"
-    ]
-  },
+  "妙": null,
+  "妆": null,
   "妥": {
     "pinyin": "tuo3",
     "definitions": [
@@ -5379,12 +4818,7 @@
       "female entertainer (archaic)"
     ]
   },
-  "姻": {
-    "pinyin": "yin1",
-    "definitions": [
-      "variant of 姻[yin1]"
-    ]
-  },
+  "姻": null,
   "姿": {
     "pinyin": "zi1",
     "definitions": [
@@ -5405,12 +4839,7 @@
       "(phonetic)"
     ]
   },
-  "娘": {
-    "pinyin": "niang2",
-    "definitions": [
-      "variant of 娘[niang2]"
-    ]
-  },
+  "娘": null,
   "娱": {
     "pinyin": "yu2",
     "definitions": [
@@ -5473,12 +4902,7 @@
       "slave girl"
     ]
   },
-  "妇": {
-    "pinyin": "fu4",
-    "definitions": [
-      "old variant of 婦|妇[fu4]"
-    ]
-  },
+  "妇": null,
   "媒": {
     "pinyin": "mei2",
     "definitions": [
@@ -5493,12 +4917,7 @@
       "(bound form) to flatter"
     ]
   },
-  "妫": {
-    "pinyin": "Gui1",
-    "definitions": [
-      "variant of 媯|妫[Gui1]"
-    ]
-  },
+  "妫": null,
   "愧": {
     "pinyin": "kui4",
     "definitions": [
@@ -5524,12 +4943,7 @@
       "jealousy"
     ]
   },
-  "袅": {
-    "pinyin": "niao3",
-    "definitions": [
-      "variant of 裊|袅[niao3]"
-    ]
-  },
+  "袅": null,
   "嫌": {
     "pinyin": "xian2",
     "definitions": [
@@ -5544,12 +4958,7 @@
       "(bound form) of or by the wife, as opposed to a concubine (contrasted with 庶[shu4])"
     ]
   },
-  "嫩": {
-    "pinyin": "nen4",
-    "definitions": [
-      "old variant of 嫩[nen4]"
-    ]
-  },
+  "嫩": null,
   "娴": {
     "pinyin": "xian2",
     "definitions": [
@@ -5577,12 +4986,7 @@
       "(treat as a) favorite"
     ]
   },
-  "嫒": {
-    "pinyin": "ai4",
-    "definitions": [
-      "used in 令嬡|令嫒[ling4ai4]"
-    ]
-  },
+  "嫒": null,
   "嫔": {
     "pinyin": "pin2",
     "definitions": [
@@ -5595,12 +4999,7 @@
       "infant"
     ]
   },
-  "嬴": {
-    "pinyin": "ying2",
-    "definitions": [
-      "old variant of 贏|赢[ying2], to win, to profit"
-    ]
-  },
+  "嬴": null,
   "懒": {
     "pinyin": "lan3",
     "definitions": [
@@ -5892,12 +5291,7 @@
       "calamity"
     ]
   },
-  "宴": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 宴[yan4]"
-    ]
-  },
+  "宴": null,
   "宵": {
     "pinyin": "xiao1",
     "definitions": [
@@ -5967,30 +5361,15 @@
       "to tremble"
     ]
   },
-  "寓": {
-    "pinyin": "yu4",
-    "definitions": [
-      "variant of 寓[yu4]"
-    ]
-  },
-  "宁": {
-    "pinyin": "ning2",
-    "definitions": [
-      "variant of 寧|宁[ning2]"
-    ]
-  },
+  "寓": null,
+  "宁": null,
   "寞": {
     "pinyin": "mo4",
     "definitions": [
       "lonesome"
     ]
   },
-  "察": {
-    "pinyin": "cha2",
-    "definitions": [
-      "variant of 察[cha2]"
-    ]
-  },
+  "察": null,
   "寡": {
     "pinyin": "gua3",
     "definitions": [
@@ -6012,12 +5391,7 @@
       "solid"
     ]
   },
-  "寨": {
-    "pinyin": "zhai4",
-    "definitions": [
-      "variant of 寨[zhai4]"
-    ]
-  },
+  "寨": null,
   "审": {
     "pinyin": "shen3",
     "definitions": [
@@ -6025,12 +5399,7 @@
       "carefully"
     ]
   },
-  "写": {
-    "pinyin": "xie4",
-    "definitions": [
-      "used in 寫意|写意[xie4yi4]"
-    ]
-  },
+  "写": null,
   "宽": {
     "pinyin": "kuan1",
     "definitions": [
@@ -6095,18 +5464,8 @@
       "to request"
     ]
   },
-  "专": {
-    "pinyin": "zhuan1",
-    "definitions": [
-      "variant of 專|专[zhuan1]"
-    ]
-  },
-  "尉": {
-    "pinyin": "yu4",
-    "definitions": [
-      "used in 尉遲|尉迟[Yu4chi2] and 尉犁[Yu4li2]"
-    ]
-  },
+  "专": null,
+  "尉": null,
   "尊": {
     "pinyin": "zun1",
     "definitions": [
@@ -6174,12 +5533,7 @@
       "to value"
     ]
   },
-  "鲜": {
-    "pinyin": "xian3",
-    "definitions": [
-      "old variant of 鮮|鲜[xian3]"
-    ]
-  },
+  "鲜": null,
   "尤": {
     "pinyin": "you2",
     "definitions": [
@@ -6321,12 +5675,7 @@
       "to concentrate on"
     ]
   },
-  "屯": {
-    "pinyin": "zhun1",
-    "definitions": [
-      "used in 屯邅[zhun1zhan1]"
-    ]
-  },
+  "屯": null,
   "山": {
     "pinyin": "shan1",
     "definitions": [
@@ -6339,12 +5688,7 @@
       "lofty peak"
     ]
   },
-  "岐": {
-    "pinyin": "qi2",
-    "definitions": [
-      "variant of 歧[qi2]"
-    ]
-  },
+  "岐": null,
   "岑": {
     "pinyin": "cen2",
     "definitions": [
@@ -6357,12 +5701,7 @@
       "ridge"
     ]
   },
-  "岩": {
-    "pinyin": "yan2",
-    "definitions": [
-      "variant of 巖|岩[yan2]"
-    ]
-  },
+  "岩": null,
   "岭": {
     "pinyin": "ling3",
     "definitions": [
@@ -6393,18 +5732,8 @@
       "(literary) to tower aloft"
     ]
   },
-  "峨": {
-    "pinyin": "e2",
-    "definitions": [
-      "variant of 峨[e2]"
-    ]
-  },
-  "峭": {
-    "pinyin": "qiao4",
-    "definitions": [
-      "variant of 峭[qiao4]"
-    ]
-  },
+  "峨": null,
+  "峭": null,
   "峰": {
     "pinyin": "feng1",
     "definitions": [
@@ -6497,12 +5826,7 @@
       "death of king or emperor"
     ]
   },
-  "嵋": {
-    "pinyin": "mei2",
-    "definitions": [
-      "used in 峨嵋[E2mei2]"
-    ]
-  },
+  "嵋": null,
   "嵌": {
     "pinyin": "qian4",
     "definitions": [
@@ -6569,12 +5893,7 @@
       "oblast (Russia)"
     ]
   },
-  "巡": {
-    "pinyin": "xun2",
-    "definitions": [
-      "variant of 巡[xun2]"
-    ]
-  },
+  "巡": null,
   "巢": {
     "pinyin": "chao2",
     "definitions": [
@@ -6618,12 +5937,7 @@
       "shaman"
     ]
   },
-  "差": {
-    "pinyin": "ci1",
-    "definitions": [
-      "used in 參差|参差[cen1ci1]"
-    ]
-  },
+  "差": null,
   "己": {
     "pinyin": "ji3",
     "definitions": [
@@ -6662,8 +5976,7 @@
   "巽": {
     "pinyin": "xun4",
     "definitions": [
-      "to obey",
-      "☴"
+      "to obey"
     ]
   },
   "巾": {
@@ -6689,8 +6002,7 @@
   "希": {
     "pinyin": "xi1",
     "definitions": [
-      "to hope",
-      "variant of 稀[xi1]"
+      "to hope"
     ]
   },
   "帕": {
@@ -6716,16 +6028,10 @@
   "帙": {
     "pinyin": "zhi4",
     "definitions": [
-      "variant of 帙[zhi4]",
       "(classifier) ten years"
     ]
   },
-  "帚": {
-    "pinyin": "zhou3",
-    "definitions": [
-      "variant of 帚[zhou3]"
-    ]
-  },
+  "帚": null,
   "帛": {
     "pinyin": "bo2",
     "definitions": [
@@ -6754,18 +6060,8 @@
       "army division"
     ]
   },
-  "裙": {
-    "pinyin": "qun2",
-    "definitions": [
-      "old variant of 裙[qun2]"
-    ]
-  },
-  "席": {
-    "pinyin": "xi2",
-    "definitions": [
-      "variant of 席[xi2]"
-    ]
-  },
+  "裙": null,
+  "席": null,
   "帐": {
     "pinyin": "zhang4",
     "definitions": [
@@ -6839,7 +6135,6 @@
   "幕": {
     "pinyin": "mu4",
     "definitions": [
-      "old variant of 幕[mu4]",
       "screen"
     ]
   },
@@ -6891,8 +6186,7 @@
   "年": {
     "pinyin": "nian2",
     "definitions": [
-      "grain",
-      "variant of 年[nian2]"
+      "grain"
     ]
   },
   "幻": {
@@ -6937,12 +6231,7 @@
       "shelter"
     ]
   },
-  "床": {
-    "pinyin": "chuang2",
-    "definitions": [
-      "variant of 床[chuang2]"
-    ]
-  },
+  "床": null,
   "序": {
     "pinyin": "xu4",
     "definitions": [
@@ -7014,18 +6303,8 @@
       "law court"
     ]
   },
-  "庵": {
-    "pinyin": "an1",
-    "definitions": [
-      "variant of 庵[an1]"
-    ]
-  },
-  "庶": {
-    "pinyin": "shu4",
-    "definitions": [
-      "old variant of 庶[shu4]"
-    ]
-  },
+  "庵": null,
+  "庶": null,
   "康": {
     "pinyin": "kang1",
     "definitions": [
@@ -7112,12 +6391,7 @@
       "small rooms facing or to the side of the main hall or veranda"
     ]
   },
-  "废": {
-    "pinyin": "fei4",
-    "definitions": [
-      "variant of 廢|废[fei4]"
-    ]
-  },
+  "废": null,
   "廨": {
     "pinyin": "xie4",
     "definitions": [
@@ -7172,12 +6446,7 @@
       "to construct"
     ]
   },
-  "弄": {
-    "pinyin": "long4",
-    "definitions": [
-      "variant of 弄[long4]"
-    ]
-  },
+  "弄": null,
   "弇": {
     "pinyin": "yan3",
     "definitions": [
@@ -7244,12 +6513,7 @@
       "to relax"
     ]
   },
-  "弟": {
-    "pinyin": "ti4",
-    "definitions": [
-      "variant of 悌[ti4]"
-    ]
-  },
+  "弟": null,
   "弦": {
     "pinyin": "xian2",
     "definitions": [
@@ -7279,12 +6543,7 @@
       "classifier for votes"
     ]
   },
-  "强": {
-    "pinyin": "qiang3",
-    "definitions": [
-      "variant of 強|强[qiang3]"
-    ]
-  },
+  "强": null,
   "弼": {
     "pinyin": "bi4",
     "definitions": [
@@ -7294,8 +6553,7 @@
   "彀": {
     "pinyin": "gou4",
     "definitions": [
-      "to draw a bow to the full",
-      "old variant of 夠|够[gou4], enough"
+      "to draw a bow to the full"
     ]
   },
   "弹": {
@@ -7426,12 +6684,7 @@
       "(one) another"
     ]
   },
-  "往": {
-    "pinyin": "wang3",
-    "definitions": [
-      "old variant of 往[wang3]"
-    ]
-  },
+  "往": null,
   "征": {
     "pinyin": "zheng1",
     "definitions": [
@@ -7454,18 +6707,8 @@
       "going to (do sth)"
     ]
   },
-  "徇": {
-    "pinyin": "xun4",
-    "definitions": [
-      "variant of 徇[xun4]"
-    ]
-  },
-  "徊": {
-    "pinyin": "huai2",
-    "definitions": [
-      "used in 徘徊[pai2huai2]"
-    ]
-  },
+  "徇": null,
+  "徊": null,
   "律": {
     "pinyin": "lu:4",
     "definitions": [
@@ -7501,12 +6744,7 @@
       "ought to"
     ]
   },
-  "徘": {
-    "pinyin": "pai2",
-    "definitions": [
-      "used in 徘徊[pai2huai2]"
-    ]
-  },
+  "徘": null,
   "徙": {
     "pinyin": "xi3",
     "definitions": [
@@ -7526,18 +6764,8 @@
       "classifier for actions: one time"
     ]
   },
-  "徨": {
-    "pinyin": "huang2",
-    "definitions": [
-      "used in 彷徨[pang2huang2]"
-    ]
-  },
-  "复": {
-    "pinyin": "fu4",
-    "definitions": [
-      "variant of 復|复[fu4]"
-    ]
-  },
+  "徨": null,
+  "复": null,
   "循": {
     "pinyin": "xun2",
     "definitions": [
@@ -7553,12 +6781,7 @@
       "abtruse"
     ]
   },
-  "德": {
-    "pinyin": "de2",
-    "definitions": [
-      "variant of 德[de2]"
-    ]
-  },
+  "德": null,
   "彻": {
     "pinyin": "che4",
     "definitions": [
@@ -7758,12 +6981,7 @@
       "to blame"
     ]
   },
-  "怪": {
-    "pinyin": "guai4",
-    "definitions": [
-      "variant of 怪[guai4]"
-    ]
-  },
+  "怪": null,
   "怯": {
     "pinyin": "qie4",
     "definitions": [
@@ -7774,16 +6992,10 @@
   "恍": {
     "pinyin": "huang3",
     "definitions": [
-      "(bound form) in a hazy state of mind",
-      "used in 恍如[huang3ru2] and 恍若[huang3ruo4]"
+      "(bound form) in a hazy state of mind"
     ]
   },
-  "恁": {
-    "pinyin": "nin2",
-    "definitions": [
-      "old variant of 您[nin2]"
-    ]
-  },
+  "恁": null,
   "恂": {
     "pinyin": "xun2",
     "definitions": [
@@ -7796,12 +7008,7 @@
       "(bound form) to rely on"
     ]
   },
-  "恒": {
-    "pinyin": "heng2",
-    "definitions": [
-      "variant of 恆|恒[heng2]"
-    ]
-  },
+  "恒": null,
   "恐": {
     "pinyin": "kong3",
     "definitions": [
@@ -7847,12 +7054,7 @@
       "to hate"
     ]
   },
-  "恪": {
-    "pinyin": "ke4",
-    "definitions": [
-      "variant of 恪[ke4]"
-    ]
-  },
+  "恪": null,
   "恬": {
     "pinyin": "tian2",
     "definitions": [
@@ -7910,12 +7112,7 @@
       "to do one's duty as a younger brother"
     ]
   },
-  "悍": {
-    "pinyin": "han4",
-    "definitions": [
-      "variant of 悍[han4]"
-    ]
-  },
+  "悍": null,
   "悒": {
     "pinyin": "yi4",
     "definitions": [
@@ -7928,12 +7125,7 @@
       "(bound form) to regret; to repent"
     ]
   },
-  "悖": {
-    "pinyin": "bei4",
-    "definitions": [
-      "old variant of 悖[bei4]"
-    ]
-  },
+  "悖": null,
   "悚": {
     "pinyin": "song3",
     "definitions": [
@@ -7970,12 +7162,7 @@
       "sorrow"
     ]
   },
-  "悴": {
-    "pinyin": "cui4",
-    "definitions": [
-      "variant of 悴[cui4]"
-    ]
-  },
+  "悴": null,
   "怅": {
     "pinyin": "chang4",
     "definitions": [
@@ -8027,12 +7214,7 @@
       "fearful"
     ]
   },
-  "惚": {
-    "pinyin": "hu1",
-    "definitions": [
-      "used in 恍惚[huang3hu1]"
-    ]
-  },
+  "惚": null,
   "惜": {
     "pinyin": "xi1",
     "definitions": [
@@ -8120,30 +7302,15 @@
       "to worry about"
     ]
   },
-  "愆": {
-    "pinyin": "qian1",
-    "definitions": [
-      "old variant of 愆[qian1]"
-    ]
-  },
-  "愈": {
-    "pinyin": "yu4",
-    "definitions": [
-      "variant of 愈[yu4]"
-    ]
-  },
+  "愆": null,
+  "愈": null,
   "愉": {
     "pinyin": "yu2",
     "definitions": [
       "pleased"
     ]
   },
-  "愍": {
-    "pinyin": "min3",
-    "definitions": [
-      "variant of 憫|悯[min3]"
-    ]
-  },
+  "愍": null,
   "意": {
     "pinyin": "yi4",
     "definitions": [
@@ -8247,12 +7414,7 @@
       "indignant"
     ]
   },
-  "慎": {
-    "pinyin": "shen4",
-    "definitions": [
-      "old variant of 慎[shen4]"
-    ]
-  },
+  "慎": null,
   "慕": {
     "pinyin": "mu4",
     "definitions": [
@@ -8332,12 +7494,7 @@
       "to celebrate"
     ]
   },
-  "慷": {
-    "pinyin": "kang1",
-    "definitions": [
-      "used in 慷慨[kang1kai3]"
-    ]
-  },
+  "慷": null,
   "戚": {
     "pinyin": "qi1",
     "definitions": [
@@ -8348,8 +7505,7 @@
   "欲": {
     "pinyin": "yu4",
     "definitions": [
-      "to wish for",
-      "variant of 慾|欲[yu4]"
+      "to wish for"
     ]
   },
   "忧": {
@@ -8384,12 +7540,7 @@
       "to pity"
     ]
   },
-  "憔": {
-    "pinyin": "qiao2",
-    "definitions": [
-      "variant of 憔[qiao2]"
-    ]
-  },
+  "憔": null,
   "惮": {
     "pinyin": "dan4",
     "definitions": [
@@ -8766,12 +7917,7 @@
       "to be entrusted with"
     ]
   },
-  "扛": {
-    "pinyin": "gang1",
-    "definitions": [
-      "old variant of 扛[gang1]"
-    ]
-  },
+  "扛": null,
   "捍": {
     "pinyin": "han4",
     "definitions": [
@@ -8803,16 +7949,10 @@
   "扯": {
     "pinyin": "che3",
     "definitions": [
-      "variant of 扯[che3]",
       "to tear"
     ]
   },
-  "扳": {
-    "pinyin": "pan1",
-    "definitions": [
-      "variant of 攀[pan1]"
-    ]
-  },
+  "扳": null,
   "扶": {
     "pinyin": "fu2",
     "definitions": [
@@ -8828,12 +7968,7 @@
       "classifier for batches, lots, military flights"
     ]
   },
-  "扼": {
-    "pinyin": "e4",
-    "definitions": [
-      "variant of 扼[e4]"
-    ]
-  },
+  "扼": null,
   "承": {
     "pinyin": "cheng2",
     "definitions": [
@@ -8872,8 +8007,7 @@
   "抒": {
     "pinyin": "shu1",
     "definitions": [
-      "to express",
-      "variant of 紓|纾[shu1]"
+      "to express"
     ]
   },
   "抓": {
@@ -8906,12 +8040,7 @@
       "to defy"
     ]
   },
-  "折": {
-    "pinyin": "zhe2",
-    "definitions": [
-      "variant of 折[zhe2]"
-    ]
-  },
+  "折": null,
   "拗": {
     "pinyin": "niu4",
     "definitions": [
@@ -8926,12 +8055,7 @@
       "to spread out"
     ]
   },
-  "抬": {
-    "pinyin": "tai2",
-    "definitions": [
-      "variant of 抬[tai2]"
-    ]
-  },
+  "抬": null,
   "抱": {
     "pinyin": "bao4",
     "definitions": [
@@ -8998,12 +8122,7 @@
       "to fiddle with"
     ]
   },
-  "拉": {
-    "pinyin": "la4",
-    "definitions": [
-      "used in 拉拉蛄[la4la4gu3]"
-    ]
-  },
+  "拉": null,
   "拊": {
     "pinyin": "fu3",
     "definitions": [
@@ -9072,12 +8191,7 @@
       "(polite) my"
     ]
   },
-  "拚": {
-    "pinyin": "pin1",
-    "definitions": [
-      "variant of 拼[pin1]"
-    ]
-  },
+  "拚": null,
   "招": {
     "pinyin": "zhao1",
     "definitions": [
@@ -9248,7 +8362,6 @@
   "挽": {
     "pinyin": "wan3",
     "definitions": [
-      "variant of 挽[wan3]",
       "to lament the dead"
     ]
   },
@@ -9266,12 +8379,7 @@
       "to rescue"
     ]
   },
-  "捆": {
-    "pinyin": "kun3",
-    "definitions": [
-      "variant of 捆[kun3]"
-    ]
-  },
+  "捆": null,
   "捉": {
     "pinyin": "zhuo1",
     "definitions": [
@@ -9312,18 +8420,8 @@
       "(archaic) unit of distance equal to 30 li 里[li3]"
     ]
   },
-  "捱": {
-    "pinyin": "ai2",
-    "definitions": [
-      "variant of 挨[ai2]"
-    ]
-  },
-  "捶": {
-    "pinyin": "chui2",
-    "definitions": [
-      "variant of 捶[chui2]"
-    ]
-  },
+  "捱": null,
+  "捶": null,
   "捻": {
     "pinyin": "nian3",
     "definitions": [
@@ -9429,12 +8527,7 @@
       "to skim"
     ]
   },
-  "采": {
-    "pinyin": "cai4",
-    "definitions": [
-      "used in 采邑[cai4yi4] and 采地[cai4di4]"
-    ]
-  },
+  "采": null,
   "探": {
     "pinyin": "tan4",
     "definitions": [
@@ -9525,24 +8618,14 @@
       "to raise (an issue)"
     ]
   },
-  "插": {
-    "pinyin": "cha1",
-    "definitions": [
-      "old variant of 插[cha1]"
-    ]
-  },
+  "插": null,
   "揖": {
     "pinyin": "yi1",
     "definitions": [
       "to greet by raising clasped hands"
     ]
   },
-  "扬": {
-    "pinyin": "yang2",
-    "definitions": [
-      "variant of 揚|扬[yang2]"
-    ]
-  },
+  "扬": null,
   "换": {
     "pinyin": "huan4",
     "definitions": [
@@ -9762,12 +8845,7 @@
       "to roll up into a ball with one's hands (variant of 團|团[tuan2])"
     ]
   },
-  "摸": {
-    "pinyin": "mo2",
-    "definitions": [
-      "variant of 摹[mo2]"
-    ]
-  },
+  "摸": null,
   "摽": {
     "pinyin": "biao4",
     "definitions": [
@@ -9825,12 +8903,7 @@
       "to run into"
     ]
   },
-  "操": {
-    "pinyin": "cao4",
-    "definitions": [
-      "variant of 肏[cao4]"
-    ]
-  },
+  "操": null,
   "撤": {
     "pinyin": "che4",
     "definitions": [
@@ -9868,12 +8941,7 @@
       "Taiwan pr. [bo4]"
     ]
   },
-  "撰": {
-    "pinyin": "zhuan4",
-    "definitions": [
-      "variant of 撰[zhuan4]"
-    ]
-  },
+  "撰": null,
   "扑": {
     "pinyin": "pu1",
     "definitions": [
@@ -9950,12 +9018,7 @@
       "to break"
     ]
   },
-  "挡": {
-    "pinyin": "dang3",
-    "definitions": [
-      "variant of 擋|挡[dang3]"
-    ]
-  },
+  "挡": null,
   "擎": {
     "pinyin": "qing2",
     "definitions": [
@@ -10187,12 +9250,7 @@
       "(bound form) quick; nimble; agile"
     ]
   },
-  "敖": {
-    "pinyin": "ao2",
-    "definitions": [
-      "variant of 遨[ao2]"
-    ]
-  },
+  "敖": null,
   "败": {
     "pinyin": "bai4",
     "definitions": [
@@ -10281,17 +9339,11 @@
       "to drive"
     ]
   },
-  "敛": {
-    "pinyin": "lian4",
-    "definitions": [
-      "variant of 殮|殓[lian4]"
-    ]
-  },
+  "敛": null,
   "毙": {
     "pinyin": "bi4",
     "definitions": [
-      "to collapse",
-      "variant of 獙[bi4]"
+      "to collapse"
     ]
   },
   "文": {
@@ -10302,12 +9354,7 @@
       "literary"
     ]
   },
-  "斌": {
-    "pinyin": "bin1",
-    "definitions": [
-      "variant of 彬[bin1]"
-    ]
-  },
+  "斌": null,
   "斐": {
     "pinyin": "fei3",
     "definitions": [
@@ -10323,12 +9370,7 @@
       "striped"
     ]
   },
-  "斗": {
-    "pinyin": "dou4",
-    "definitions": [
-      "variant of 鬥|斗[dou4]"
-    ]
-  },
+  "斗": null,
   "料": {
     "pinyin": "liao4",
     "definitions": [
@@ -10447,12 +9489,7 @@
       "CL:面[mian4]"
     ]
   },
-  "旄": {
-    "pinyin": "mao4",
-    "definitions": [
-      "variant of 耄[mao4]"
-    ]
-  },
+  "旄": null,
   "旅": {
     "pinyin": "lu:3",
     "definitions": [
@@ -10469,8 +9506,7 @@
   "旋": {
     "pinyin": "xuan4",
     "definitions": [
-      "to whirl",
-      "variant of 鏇|镟[xuan4]"
+      "to whirl"
     ]
   },
   "旌": {
@@ -10629,12 +9665,7 @@
       "next"
     ]
   },
-  "昏": {
-    "pinyin": "hun1",
-    "definitions": [
-      "old variant of 昏[hun1]"
-    ]
-  },
+  "昏": null,
   "易": {
     "pinyin": "yi4",
     "definitions": [
@@ -10663,12 +9694,7 @@
       "satellite"
     ]
   },
-  "映": {
-    "pinyin": "ying4",
-    "definitions": [
-      "old variant of 映[ying4]"
-    ]
-  },
+  "映": null,
   "昧": {
     "pinyin": "mei4",
     "definitions": [
@@ -10688,12 +9714,7 @@
       "manifest"
     ]
   },
-  "是": {
-    "pinyin": "shi4",
-    "definitions": [
-      "variant of 是[shi4]"
-    ]
-  },
+  "是": null,
   "昱": {
     "pinyin": "yu4",
     "definitions": [
@@ -10832,12 +9853,7 @@
       "dark"
     ]
   },
-  "皓": {
-    "pinyin": "hao4",
-    "definitions": [
-      "variant of 皓[hao4]"
-    ]
-  },
+  "皓": null,
   "畅": {
     "pinyin": "chang4",
     "definitions": [
@@ -11070,18 +10086,8 @@
       "time"
     ]
   },
-  "朦": {
-    "pinyin": "meng2",
-    "definitions": [
-      "used in 朦朧|朦胧[meng2long2]"
-    ]
-  },
-  "胧": {
-    "pinyin": "long2",
-    "definitions": [
-      "used in 朦朧|朦胧[meng2long2]"
-    ]
-  },
+  "朦": null,
+  "胧": null,
   "木": {
     "pinyin": "mu4",
     "definitions": [
@@ -11125,12 +10131,7 @@
       "plain and simple"
     ]
   },
-  "朵": {
-    "pinyin": "duo3",
-    "definitions": [
-      "variant of 朵[duo3]"
-    ]
-  },
+  "朵": null,
   "朽": {
     "pinyin": "xiu3",
     "definitions": [
@@ -11165,12 +10166,7 @@
       "a capable individual"
     ]
   },
-  "村": {
-    "pinyin": "cun1",
-    "definitions": [
-      "variant of 村[cun1]"
-    ]
-  },
+  "村": null,
   "杖": {
     "pinyin": "zhang4",
     "definitions": [
@@ -11211,7 +10207,6 @@
   "杯": {
     "pinyin": "bei1",
     "definitions": [
-      "variant of 杯[bei1]",
       "classifier for certain containers of liquids: glass, cup"
     ]
   },
@@ -11287,12 +10282,7 @@
       "(on product packaging) classifier for flat items (from Japanese 枚 \"mai\")"
     ]
   },
-  "果": {
-    "pinyin": "guo3",
-    "definitions": [
-      "variant of 果[guo3]"
-    ]
-  },
+  "果": null,
   "枝": {
     "pinyin": "zhi1",
     "definitions": [
@@ -11345,12 +10335,7 @@
       "sth that affords an advantage to an opponent"
     ]
   },
-  "柏": {
-    "pinyin": "bai3",
-    "definitions": [
-      "variant of 柏[bai3]"
-    ]
-  },
+  "柏": null,
   "某": {
     "pinyin": "mou3",
     "definitions": [
@@ -11387,12 +10372,7 @@
       "wardrobe"
     ]
   },
-  "查": {
-    "pinyin": "zha1",
-    "definitions": [
-      "variant of 楂[zha1]"
-    ]
-  },
+  "查": null,
   "柩": {
     "pinyin": "jiu4",
     "definitions": [
@@ -11411,12 +10391,7 @@
       "pillar"
     ]
   },
-  "柳": {
-    "pinyin": "liu3",
-    "definitions": [
-      "old variant of 柳[liu3]"
-    ]
-  },
+  "柳": null,
   "柴": {
     "pinyin": "chai2",
     "definitions": [
@@ -11450,12 +10425,7 @@
       "raft (of logs)"
     ]
   },
-  "核": {
-    "pinyin": "he2",
-    "definitions": [
-      "variant of 核[he2]"
-    ]
-  },
+  "核": null,
   "根": {
     "pinyin": "gen1",
     "definitions": [
@@ -11505,24 +10475,14 @@
       "table"
     ]
   },
-  "桌": {
-    "pinyin": "zhuo1",
-    "definitions": [
-      "old variant of 桌[zhuo1]"
-    ]
-  },
+  "桌": null,
   "桐": {
     "pinyin": "tong2",
     "definitions": [
       "tree name (variously Paulownia, Firmiana or Aleurites)"
     ]
   },
-  "桑": {
-    "pinyin": "sang1",
-    "definitions": [
-      "old variant of 桑[sang1]"
-    ]
-  },
+  "桑": null,
   "桓": {
     "pinyin": "huan2",
     "definitions": [
@@ -11537,18 +10497,8 @@
       "barrel (of oil etc)"
     ]
   },
-  "梁": {
-    "pinyin": "liang2",
-    "definitions": [
-      "variant of 梁[liang2]"
-    ]
-  },
-  "梅": {
-    "pinyin": "mei2",
-    "definitions": [
-      "old variant of 梅[mei2]"
-    ]
-  },
+  "梁": null,
+  "梅": null,
   "梆": {
     "pinyin": "bang1",
     "definitions": [
@@ -11621,12 +10571,7 @@
       "to discard"
     ]
   },
-  "棋": {
-    "pinyin": "qi2",
-    "definitions": [
-      "variant of 棋[qi2]"
-    ]
-  },
+  "棋": null,
   "棍": {
     "pinyin": "gun4",
     "definitions": [
@@ -11679,18 +10624,8 @@
       "(bound form) densely wooded"
     ]
   },
-  "棱": {
-    "pinyin": "ling2",
-    "definitions": [
-      "used in 穆稜|穆棱[Mu4 ling2]"
-    ]
-  },
-  "栖": {
-    "pinyin": "xi1",
-    "definitions": [
-      "used in 棲棲|栖栖[xi1xi1]"
-    ]
-  },
+  "棱": null,
+  "栖": null,
   "棹": {
     "pinyin": "zhao4",
     "definitions": [
@@ -11769,18 +10704,8 @@
       "suffering"
     ]
   },
-  "楞": {
-    "pinyin": "leng4",
-    "definitions": [
-      "variant of 愣[leng4]"
-    ]
-  },
-  "楫": {
-    "pinyin": "ji2",
-    "definitions": [
-      "variant of 楫[ji2]"
-    ]
-  },
+  "楞": null,
+  "楫": null,
   "楬": {
     "pinyin": "jie2",
     "definitions": [
@@ -11822,12 +10747,7 @@
       "regular script (calligraphic style)"
     ]
   },
-  "概": {
-    "pinyin": "gai4",
-    "definitions": [
-      "old variant of 概[gai4]"
-    ]
-  },
+  "概": null,
   "榆": {
     "pinyin": "yu2",
     "definitions": [
@@ -11895,7 +10815,6 @@
   "枪": {
     "pinyin": "qiang1",
     "definitions": [
-      "variant of 槍|枪[qiang1]",
       "spear"
     ]
   },
@@ -12007,12 +10926,7 @@
       "to cultivate"
     ]
   },
-  "樽": {
-    "pinyin": "zun1",
-    "definitions": [
-      "variant of 樽[zun1]"
-    ]
-  },
+  "樽": null,
   "桥": {
     "pinyin": "qiao2",
     "definitions": [
@@ -12080,12 +10994,7 @@
       "to inspect"
     ]
   },
-  "樯": {
-    "pinyin": "qiang2",
-    "definitions": [
-      "variant of 檣|樯[qiang2]"
-    ]
-  },
+  "樯": null,
   "槛": {
     "pinyin": "kan3",
     "definitions": [
@@ -12221,12 +11130,7 @@
       "(dialect) to sleep"
     ]
   },
-  "歌": {
-    "pinyin": "ge1",
-    "definitions": [
-      "variant of 歌[ge1]"
-    ]
-  },
+  "歌": null,
   "歔": {
     "pinyin": "xu1",
     "definitions": [
@@ -12425,12 +11329,7 @@
       "Taiwan pr. [yao2]"
     ]
   },
-  "肴": {
-    "pinyin": "yao2",
-    "definitions": [
-      "variant of 肴[yao2]"
-    ]
-  },
+  "肴": null,
   "殿": {
     "pinyin": "dian4",
     "definitions": [
@@ -12440,7 +11339,6 @@
   "毁": {
     "pinyin": "hui3",
     "definitions": [
-      "variant of 毀|毁[hui3]",
       "to slander"
     ]
   },
@@ -12505,12 +11403,7 @@
       "careful"
     ]
   },
-  "毗": {
-    "pinyin": "pi2",
-    "definitions": [
-      "variant of 毗[pi2]"
-    ]
-  },
+  "毗": null,
   "毛": {
     "pinyin": "mao2",
     "definitions": [
@@ -12533,18 +11426,8 @@
       "overcoat"
     ]
   },
-  "毡": {
-    "pinyin": "zhan1",
-    "definitions": [
-      "variant of 氈|毡[zhan1]"
-    ]
-  },
-  "氏": {
-    "pinyin": "zhi1",
-    "definitions": [
-      "see 月氏[Yue4 zhi1] and 閼氏|阏氏[yan1 zhi1]"
-    ]
-  },
+  "毡": null,
+  "氏": null,
   "氐": {
     "pinyin": "di3",
     "definitions": [
@@ -12721,12 +11604,7 @@
       "to lower"
     ]
   },
-  "沌": {
-    "pinyin": "dun4",
-    "definitions": [
-      "used in 混沌[hun4dun4]"
-    ]
-  },
+  "沌": null,
   "沐": {
     "pinyin": "mu4",
     "definitions": [
@@ -12822,12 +11700,7 @@
       "to buy"
     ]
   },
-  "沾": {
-    "pinyin": "zhan1",
-    "definitions": [
-      "variant of 沾[zhan1]"
-    ]
-  },
+  "沾": null,
   "沿": {
     "pinyin": "yan2",
     "definitions": [
@@ -12873,12 +11746,7 @@
       "nasal mucus"
     ]
   },
-  "泝": {
-    "pinyin": "su4",
-    "definitions": [
-      "variant of 溯[su4]"
-    ]
-  },
+  "泝": null,
   "波": {
     "pinyin": "bo1",
     "definitions": [
@@ -12919,18 +11787,8 @@
       "to shuffle (cards etc)"
     ]
   },
-  "洛": {
-    "pinyin": "luo4",
-    "definitions": [
-      "used in transliteration"
-    ]
-  },
-  "洞": {
-    "pinyin": "tong2",
-    "definitions": [
-      "used in 洪洞[Hong2tong2], a county in Shanxi"
-    ]
-  },
+  "洛": null,
+  "洞": null,
   "津": {
     "pinyin": "jin1",
     "definitions": [
@@ -12951,12 +11809,7 @@
       "to cleanse"
     ]
   },
-  "洱": {
-    "pinyin": "er3",
-    "definitions": [
-      "see 洱海[Er3 hai3]"
-    ]
-  },
+  "洱": null,
   "洲": {
     "pinyin": "zhou1",
     "definitions": [
@@ -13007,18 +11860,8 @@
       "to degenerate"
     ]
   },
-  "浙": {
-    "pinyin": "Zhe4",
-    "definitions": [
-      "variant of 浙[Zhe4]"
-    ]
-  },
-  "浚": {
-    "pinyin": "jun4",
-    "definitions": [
-      "variant of 浚[jun4]"
-    ]
-  },
+  "浙": null,
+  "浚": null,
   "浦": {
     "pinyin": "pu3",
     "definitions": [
@@ -13201,24 +12044,14 @@
       "light in color"
     ]
   },
-  "淩": {
-    "pinyin": "ling2",
-    "definitions": [
-      "variant of 凌[ling2]"
-    ]
-  },
+  "淩": null,
   "沦": {
     "pinyin": "lun2",
     "definitions": [
       "to sink (into ruin, oblivion)"
     ]
   },
-  "淫": {
-    "pinyin": "yin2",
-    "definitions": [
-      "variant of 淫[yin2]"
-    ]
-  },
+  "淫": null,
   "淮": {
     "pinyin": "Huai2",
     "definitions": [
@@ -13232,12 +12065,7 @@
       "same as 育水"
     ]
   },
-  "淳": {
-    "pinyin": "chun2",
-    "definitions": [
-      "old variant of 淳[chun2]"
-    ]
-  },
+  "淳": null,
   "渊": {
     "pinyin": "yuan1",
     "definitions": [
@@ -13431,12 +12259,7 @@
       "origin"
     ]
   },
-  "溜": {
-    "pinyin": "liu4",
-    "definitions": [
-      "used in 冰溜[bing1 liu4]"
-    ]
-  },
+  "溜": null,
   "沟": {
     "pinyin": "gou1",
     "definitions": [
@@ -13454,16 +12277,10 @@
   "溢": {
     "pinyin": "yi4",
     "definitions": [
-      "to overflow",
-      "old variant of 鎰|镒[yi4]"
+      "to overflow"
     ]
   },
-  "溪": {
-    "pinyin": "xi1",
-    "definitions": [
-      "variant of 溪[xi1]"
-    ]
-  },
+  "溪": null,
   "温": {
     "pinyin": "wen1",
     "definitions": [
@@ -13480,12 +12297,7 @@
       "to disturb"
     ]
   },
-  "溺": {
-    "pinyin": "niao4",
-    "definitions": [
-      "variant of 尿[niao4]"
-    ]
-  },
+  "溺": null,
   "湿": {
     "pinyin": "shi1",
     "definitions": [
@@ -13532,12 +12344,7 @@
       "juice"
     ]
   },
-  "荥": {
-    "pinyin": "ying2",
-    "definitions": [
-      "used in 滎經|荥经[Ying2jing1]"
-    ]
-  },
+  "荥": null,
   "滏": {
     "pinyin": "fu3",
     "definitions": [
@@ -13687,12 +12494,7 @@
       "gradual"
     ]
   },
-  "浆": {
-    "pinyin": "jiang4",
-    "definitions": [
-      "variant of 糨[jiang4]"
-    ]
-  },
+  "浆": null,
   "颍": {
     "pinyin": "Ying3",
     "definitions": [
@@ -13986,12 +12788,7 @@
       "discouraged; dejected"
     ]
   },
-  "灶": {
-    "pinyin": "zao4",
-    "definitions": [
-      "variant of 灶[zao4]"
-    ]
-  },
+  "灶": null,
   "灸": {
     "pinyin": "jiu3",
     "definitions": [
@@ -14004,12 +12801,7 @@
       "to burn; to sear; to scorch"
     ]
   },
-  "灾": {
-    "pinyin": "zai1",
-    "definitions": [
-      "old variant of 災|灾[zai1]"
-    ]
-  },
+  "灾": null,
   "炎": {
     "pinyin": "yan2",
     "definitions": [
@@ -14045,12 +12837,7 @@
       "wood charcoal"
     ]
   },
-  "炮": {
-    "pinyin": "pao4",
-    "definitions": [
-      "variant of 炮[pao4]"
-    ]
-  },
+  "炮": null,
   "炳": {
     "pinyin": "bing3",
     "definitions": [
@@ -14058,12 +12845,7 @@
       "luminous"
     ]
   },
-  "为": {
-    "pinyin": "wei4",
-    "definitions": [
-      "variant of 為|为[wei4]"
-    ]
-  },
+  "为": null,
   "烈": {
     "pinyin": "lie4",
     "definitions": [
@@ -14146,12 +12928,7 @@
       "to blanch; to parboil"
     ]
   },
-  "焰": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 焰[yan4]"
-    ]
-  },
+  "焰": null,
   "然": {
     "pinyin": "ran2",
     "definitions": [
@@ -14160,12 +12937,7 @@
       "like this"
     ]
   },
-  "炼": {
-    "pinyin": "lian4",
-    "definitions": [
-      "variant of 鏈|链[lian4], chain"
-    ]
-  },
+  "炼": null,
   "煌": {
     "pinyin": "huang2",
     "definitions": [
@@ -14317,12 +13089,7 @@
       "to roast"
     ]
   },
-  "燕": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 燕[yan4]"
-    ]
-  },
+  "燕": null,
   "营": {
     "pinyin": "ying2",
     "definitions": [
@@ -14352,12 +13119,7 @@
       "candle"
     ]
   },
-  "炉": {
-    "pinyin": "lu2",
-    "definitions": [
-      "variant of 爐|炉[lu2]"
-    ]
-  },
+  "炉": null,
   "烂": {
     "pinyin": "lan4",
     "definitions": [
@@ -14469,12 +13231,7 @@
       "plate"
     ]
   },
-  "窗": {
-    "pinyin": "chuang1",
-    "definitions": [
-      "variant of 窗[chuang1]"
-    ]
-  },
+  "窗": null,
   "闸": {
     "pinyin": "zha2",
     "definitions": [
@@ -14514,8 +13271,7 @@
     "pinyin": "mou2",
     "definitions": [
       "barley",
-      "to seek or obtain",
-      "old variant of 眸[mou2]"
+      "to seek or obtain"
     ]
   },
   "牡": {
@@ -14579,12 +13335,7 @@
       "ox-horns"
     ]
   },
-  "犍": {
-    "pinyin": "qian2",
-    "definitions": [
-      "used in 犍為|犍为[Qian2wei4], a country in Sichuan"
-    ]
-  },
+  "犍": null,
   "犒": {
     "pinyin": "kao4",
     "definitions": [
@@ -14690,12 +13441,7 @@
       "hunting dog"
     ]
   },
-  "狭": {
-    "pinyin": "xia2",
-    "definitions": [
-      "old variant of 狹|狭[xia2]"
-    ]
-  },
+  "狭": null,
   "狼": {
     "pinyin": "lang2",
     "definitions": [
@@ -14757,12 +13503,7 @@
       "plentiful"
     ]
   },
-  "猿": {
-    "pinyin": "yuan2",
-    "definitions": [
-      "variant of 猿[yuan2]"
-    ]
-  },
+  "猿": null,
   "犹": {
     "pinyin": "you2",
     "definitions": [
@@ -14796,12 +13537,7 @@
       "to award; to give as a reward"
     ]
   },
-  "獐": {
-    "pinyin": "zhang1",
-    "definitions": [
-      "variant of 獐[zhang1]"
-    ]
-  },
+  "獐": null,
   "獗": {
     "pinyin": "jue2",
     "definitions": [
@@ -14823,12 +13559,7 @@
       "only"
     ]
   },
-  "獬": {
-    "pinyin": "xie4",
-    "definitions": [
-      "see 獬豸[xie4 zhi4]"
-    ]
-  },
+  "獬": null,
   "狝": {
     "pinyin": "xian3",
     "definitions": [
@@ -14877,7 +13608,6 @@
   "玆": {
     "pinyin": "zi1",
     "definitions": [
-      "variant of 茲|兹[zi1]",
       "here",
       "time"
     ]
@@ -14908,12 +13638,7 @@
       "jade tablet indicating rank"
     ]
   },
-  "玩": {
-    "pinyin": "wan2",
-    "definitions": [
-      "variant of 玩[wan2]"
-    ]
-  },
+  "玩": null,
   "玫": {
     "pinyin": "mei2",
     "definitions": [
@@ -14939,12 +13664,7 @@
       "glass"
     ]
   },
-  "珍": {
-    "pinyin": "zhen1",
-    "definitions": [
-      "variant of 珍[zhen1]"
-    ]
-  },
+  "珍": null,
   "珠": {
     "pinyin": "zhu1",
     "definitions": [
@@ -14958,12 +13678,7 @@
       "top gem of pendant from girdle"
     ]
   },
-  "珪": {
-    "pinyin": "gui1",
-    "definitions": [
-      "variant of 圭[gui1]"
-    ]
-  },
+  "珪": null,
   "班": {
     "pinyin": "ban1",
     "definitions": [
@@ -15002,24 +13717,9 @@
       "reason"
     ]
   },
-  "琊": {
-    "pinyin": "ya2",
-    "definitions": [
-      "used in place names, notably 瑯琊山|琅琊山[Lang2 ya2 Shan1]"
-    ]
-  },
-  "璃": {
-    "pinyin": "li2",
-    "definitions": [
-      "variant of 璃[li2]"
-    ]
-  },
-  "琢": {
-    "pinyin": "zuo2",
-    "definitions": [
-      "used in 琢磨[zuo2 mo5]"
-    ]
-  },
+  "琊": null,
+  "璃": null,
+  "琢": null,
   "琦": {
     "pinyin": "qi2",
     "definitions": [
@@ -15056,12 +13756,7 @@
       "gem"
     ]
   },
-  "琴": {
-    "pinyin": "qin2",
-    "definitions": [
-      "variant of 琴[qin2], guqin or zither"
-    ]
-  },
+  "琴": null,
   "瑁": {
     "pinyin": "mao4",
     "definitions": [
@@ -15119,12 +13814,7 @@
       "luster of gems"
     ]
   },
-  "瑰": {
-    "pinyin": "gui1",
-    "definitions": [
-      "old variant of 瑰[gui1]"
-    ]
-  },
+  "瑰": null,
   "瑾": {
     "pinyin": "jin3",
     "definitions": [
@@ -15137,12 +13827,7 @@
       "(gem)"
     ]
   },
-  "璇": {
-    "pinyin": "xuan2",
-    "definitions": [
-      "variant of 璇[xuan2]"
-    ]
-  },
+  "璇": null,
   "璋": {
     "pinyin": "zhang1",
     "definitions": [
@@ -15231,18 +13916,8 @@
       "roof tile"
     ]
   },
-  "瓮": {
-    "pinyin": "weng4",
-    "definitions": [
-      "variant of 甕|瓮[weng4]"
-    ]
-  },
-  "瓶": {
-    "pinyin": "ping2",
-    "definitions": [
-      "variant of 瓶[ping2]"
-    ]
-  },
+  "瓮": null,
+  "瓶": null,
   "甄": {
     "pinyin": "zhen1",
     "definitions": [
@@ -15288,12 +13963,7 @@
       "raw"
     ]
   },
-  "产": {
-    "pinyin": "chan3",
-    "definitions": [
-      "variant of 產|产[chan3]"
-    ]
-  },
+  "产": null,
   "甥": {
     "pinyin": "sheng1",
     "definitions": [
@@ -15365,12 +14035,7 @@
       "official in charge of fields (old)"
     ]
   },
-  "亩": {
-    "pinyin": "mu3",
-    "definitions": [
-      "old variant of 畝|亩[mu3]"
-    ]
-  },
+  "亩": null,
   "耕": {
     "pinyin": "geng1",
     "definitions": [
@@ -15415,12 +14080,7 @@
       "full"
     ]
   },
-  "略": {
-    "pinyin": "lu:e4",
-    "definitions": [
-      "variant of 略[lu:e4]"
-    ]
-  },
+  "略": null,
   "番": {
     "pinyin": "fan1",
     "definitions": [
@@ -15579,12 +14239,7 @@
       "dysentery"
     ]
   },
-  "痴": {
-    "pinyin": "chi1",
-    "definitions": [
-      "variant of 痴[chi1]"
-    ]
-  },
+  "痴": null,
   "疴": {
     "pinyin": "ke1",
     "definitions": [
@@ -15611,12 +14266,7 @@
       "sore"
     ]
   },
-  "瘤": {
-    "pinyin": "liu2",
-    "definitions": [
-      "old variant of 瘤[liu2]"
-    ]
-  },
+  "瘤": null,
   "瘦": {
     "pinyin": "shou4",
     "definitions": [
@@ -15736,12 +14386,7 @@
       "to comply with"
     ]
   },
-  "皋": {
-    "pinyin": "gao1",
-    "definitions": [
-      "variant of 皋[gao1]"
-    ]
-  },
+  "皋": null,
   "皎": {
     "pinyin": "jiao3",
     "definitions": [
@@ -15876,7 +14521,6 @@
     "pinyin": "lu2",
     "definitions": [
       "(old) rice vessel",
-      "old variant of 廬|庐[lu2]",
       "fussy"
     ]
   },
@@ -15999,12 +14643,7 @@
       "to sleep"
     ]
   },
-  "眦": {
-    "pinyin": "zi4",
-    "definitions": [
-      "variant of 眥|眦[zi4]"
-    ]
-  },
+  "眦": null,
   "眩": {
     "pinyin": "xuan4",
     "definitions": [
@@ -16044,12 +14683,7 @@
       "classifier for wells, cave-dwellings etc"
     ]
   },
-  "众": {
-    "pinyin": "zhong4",
-    "definitions": [
-      "variant of 眾|众[zhong4]"
-    ]
-  },
+  "众": null,
   "睚": {
     "pinyin": "ya2",
     "definitions": [
@@ -16092,12 +14726,7 @@
       "to look askance at"
     ]
   },
-  "睹": {
-    "pinyin": "du3",
-    "definitions": [
-      "old variant of 睹[du3]"
-    ]
-  },
+  "睹": null,
   "瞋": {
     "pinyin": "chen1",
     "definitions": [
@@ -16130,12 +14759,7 @@
       "to glare at"
     ]
   },
-  "瞰": {
-    "pinyin": "kan4",
-    "definitions": [
-      "variant of 瞰[kan4]"
-    ]
-  },
+  "瞰": null,
   "瞳": {
     "pinyin": "tong2",
     "definitions": [
@@ -16218,12 +14842,7 @@
       "granule"
     ]
   },
-  "砌": {
-    "pinyin": "qie4",
-    "definitions": [
-      "used in 砌末[qie4mo5]"
-    ]
-  },
+  "砌": null,
   "砍": {
     "pinyin": "kan3",
     "definitions": [
@@ -16280,12 +14899,7 @@
       "ink-stone"
     ]
   },
-  "碌": {
-    "pinyin": "liu4",
-    "definitions": [
-      "variant of 碌[liu4]"
-    ]
-  },
+  "碌": null,
   "碎": {
     "pinyin": "sui4",
     "definitions": [
@@ -16354,12 +14968,7 @@
       "to block"
     ]
   },
-  "矿": {
-    "pinyin": "kuang4",
-    "definitions": [
-      "variant of 礦|矿[kuang4]"
-    ]
-  },
+  "矿": null,
   "砾": {
     "pinyin": "li4",
     "definitions": [
@@ -16378,12 +14987,7 @@
       "(bound form) society; organization; agency"
     ]
   },
-  "祀": {
-    "pinyin": "si4",
-    "definitions": [
-      "variant of 祀[si4]"
-    ]
-  },
+  "祀": null,
   "祁": {
     "pinyin": "qi2",
     "definitions": [
@@ -16565,8 +15169,7 @@
   "禽": {
     "pinyin": "qin2",
     "definitions": [
-      "(bound form) birds; fowl",
-      "old variant of 擒[qin2]"
+      "(bound form) birds; fowl"
     ]
   },
   "禾": {
@@ -16603,12 +15206,7 @@
       "to maintain"
     ]
   },
-  "秋": {
-    "pinyin": "qiu1",
-    "definitions": [
-      "used in 鞦韆|秋千[qiu1qian1]"
-    ]
-  },
+  "秋": null,
   "科": {
     "pinyin": "ke1",
     "definitions": [
@@ -16679,12 +15277,7 @@
       "journey"
     ]
   },
-  "稍": {
-    "pinyin": "shao4",
-    "definitions": [
-      "see 稍息[shao4 xi1]"
-    ]
-  },
+  "稍": null,
   "稔": {
     "pinyin": "ren3",
     "definitions": [
@@ -16697,12 +15290,7 @@
       "polished rice"
     ]
   },
-  "稚": {
-    "pinyin": "zhi4",
-    "definitions": [
-      "variant of 稚[zhi4]"
-    ]
-  },
+  "稚": null,
   "禀": {
     "pinyin": "bing3",
     "definitions": [
@@ -16725,12 +15313,7 @@
       "to cultivate"
     ]
   },
-  "称": {
-    "pinyin": "cheng4",
-    "definitions": [
-      "old variant of 秤[cheng4]"
-    ]
-  },
+  "称": null,
   "稷": {
     "pinyin": "ji4",
     "definitions": [
@@ -16773,8 +15356,7 @@
     "pinyin": "mu4",
     "definitions": [
       "solemn",
-      "calm",
-      "old variant of 默"
+      "calm"
     ]
   },
   "积": {
@@ -16798,12 +15380,7 @@
       "(bound form) dirty; filthy"
     ]
   },
-  "颓": {
-    "pinyin": "tui2",
-    "definitions": [
-      "variant of 頹|颓[tui2]"
-    ]
-  },
+  "颓": null,
   "稳": {
     "pinyin": "wen3",
     "definitions": [
@@ -16909,12 +15486,7 @@
       "thoroughly"
     ]
   },
-  "窥": {
-    "pinyin": "kui1",
-    "definitions": [
-      "variant of 窺|窥[kui1]"
-    ]
-  },
+  "窥": null,
   "窜": {
     "pinyin": "cuan4",
     "definitions": [
@@ -17001,7 +15573,6 @@
   "端": {
     "pinyin": "duan1",
     "definitions": [
-      "old variant of 端[duan1]",
       "origin"
     ]
   },
@@ -17019,12 +15590,7 @@
       "Kangxi radical 118"
     ]
   },
-  "竺": {
-    "pinyin": "du3",
-    "definitions": [
-      "variant of 篤|笃[du3]"
-    ]
-  },
+  "竺": null,
   "竿": {
     "pinyin": "gan1",
     "definitions": [
@@ -17121,12 +15687,7 @@
       "to respond"
     ]
   },
-  "策": {
-    "pinyin": "ce4",
-    "definitions": [
-      "variant of 策[ce4]"
-    ]
-  },
+  "策": null,
   "管": {
     "pinyin": "guan3",
     "definitions": [
@@ -17239,12 +15800,7 @@
       "pole for punting boats"
     ]
   },
-  "篡": {
-    "pinyin": "cuan4",
-    "definitions": [
-      "old variant of 篡[cuan4]"
-    ]
-  },
+  "篡": null,
   "笃": {
     "pinyin": "du3",
     "definitions": [
@@ -17307,12 +15863,7 @@
       "reed (of a music instrument)"
     ]
   },
-  "簪": {
-    "pinyin": "zan1",
-    "definitions": [
-      "old variant of 簪[zan1]"
-    ]
-  },
+  "簪": null,
   "签": {
     "pinyin": "qian1",
     "definitions": [
@@ -17618,12 +16169,7 @@
       "delicate"
     ]
   },
-  "绁": {
-    "pinyin": "xie4",
-    "definitions": [
-      "variant of 紲|绁[xie4]"
-    ]
-  },
+  "绁": null,
   "绅": {
     "pinyin": "shen1",
     "definitions": [
@@ -17645,7 +16191,6 @@
   "絃": {
     "pinyin": "xian2",
     "definitions": [
-      "variant of 弦",
       "string of musical instrument",
       "chord (straight line joining two points on a curve)"
     ]
@@ -17673,18 +16218,8 @@
       "to bind"
     ]
   },
-  "绝": {
-    "pinyin": "jue2",
-    "definitions": [
-      "variant of 絕|绝[jue2]"
-    ]
-  },
-  "绦": {
-    "pinyin": "tao1",
-    "definitions": [
-      "variant of 絛|绦[tao1]"
-    ]
-  },
+  "绝": null,
+  "绦": null,
   "绞": {
     "pinyin": "jiao3",
     "definitions": [
@@ -17842,12 +16377,7 @@
       "to connect"
     ]
   },
-  "䌽": {
-    "pinyin": "cai3",
-    "definitions": [
-      "variant of 彩[cai3]"
-    ]
-  },
+  "䌽": null,
   "纶": {
     "pinyin": "lun2",
     "definitions": [
@@ -17870,8 +16400,7 @@
   "绰": {
     "pinyin": "chuo4",
     "definitions": [
-      "(bound form) ample; spacious",
-      "used in 綽號|绰号[chuo4hao4] and 綽名|绰名[chuo4ming2]"
+      "(bound form) ample; spacious"
     ]
   },
   "绫": {
@@ -17880,12 +16409,7 @@
       "damask"
     ]
   },
-  "绵": {
-    "pinyin": "mian2",
-    "definitions": [
-      "old variant of 綿|绵[mian2]"
-    ]
-  },
+  "绵": null,
   "紧": {
     "pinyin": "jin3",
     "definitions": [
@@ -18094,7 +16618,6 @@
   "绕": {
     "pinyin": "rao4",
     "definitions": [
-      "variant of 繞|绕[rao4], to rotate around",
       "to move around",
       "to by-pass"
     ]
@@ -18187,12 +16710,7 @@
       "to run short of"
     ]
   },
-  "钵": {
-    "pinyin": "bo1",
-    "definitions": [
-      "variant of 缽|钵[bo1]"
-    ]
-  },
+  "钵": null,
   "罄": {
     "pinyin": "qing4",
     "definitions": [
@@ -18200,12 +16718,7 @@
       "empty"
     ]
   },
-  "罐": {
-    "pinyin": "guan4",
-    "definitions": [
-      "variant of 罐[guan4]"
-    ]
-  },
+  "罐": null,
   "罕": {
     "pinyin": "han3",
     "definitions": [
@@ -18218,12 +16731,7 @@
       "stars of the Big Dipper that constitute the tail of the dipper"
     ]
   },
-  "罣": {
-    "pinyin": "gua4",
-    "definitions": [
-      "variant of 掛|挂[gua4]"
-    ]
-  },
+  "罣": null,
   "罩": {
     "pinyin": "zhao4",
     "definitions": [
@@ -18232,12 +16740,7 @@
       "(Tw) (coll.) to protect; to have sb's back"
     ]
   },
-  "罪": {
-    "pinyin": "zui4",
-    "definitions": [
-      "variant of 罪[zui4], crime"
-    ]
-  },
+  "罪": null,
   "置": {
     "pinyin": "zhi4",
     "definitions": [
@@ -18245,12 +16748,7 @@
       "to put"
     ]
   },
-  "罚": {
-    "pinyin": "fa2",
-    "definitions": [
-      "variant of 罰|罚[fa2]"
-    ]
-  },
+  "罚": null,
   "署": {
     "pinyin": "shu3",
     "definitions": [
@@ -18258,12 +16756,7 @@
       "(Taiwan pr. [shu4]) to sign"
     ]
   },
-  "骂": {
-    "pinyin": "ma4",
-    "definitions": [
-      "variant of 罵|骂[ma4]"
-    ]
-  },
+  "骂": null,
   "罢": {
     "pinyin": "ba5",
     "definitions": [
@@ -18291,24 +16784,14 @@
       "to sift"
     ]
   },
-  "羁": {
-    "pinyin": "ji1",
-    "definitions": [
-      "variant of 羈|羁[ji1]"
-    ]
-  },
+  "羁": null,
   "羊": {
     "pinyin": "yang2",
     "definitions": [
       "sheep; goat"
     ]
   },
-  "羌": {
-    "pinyin": "qiang1",
-    "definitions": [
-      "variant of 羌[qiang1]"
-    ]
-  },
+  "羌": null,
   "美": {
     "pinyin": "mei3",
     "definitions": [
@@ -18320,8 +16803,7 @@
     "pinyin": "xiu1",
     "definitions": [
       "shy",
-      "shame",
-      "variant of 饈|馐[xiu1]"
+      "shame"
     ]
   },
   "群": {
@@ -18411,8 +16893,7 @@
   "翔": {
     "pinyin": "xiang2",
     "definitions": [
-      "to soar",
-      "variant of 詳|详[xiang2]"
+      "to soar"
     ]
   },
   "翟": {
@@ -18440,12 +16921,7 @@
       "pen"
     ]
   },
-  "翱": {
-    "pinyin": "ao2",
-    "definitions": [
-      "variant of 翱[ao2]"
-    ]
-  },
+  "翱": null,
   "翘": {
     "pinyin": "qiao4",
     "definitions": [
@@ -18453,18 +16929,12 @@
       "to tilt"
     ]
   },
-  "翻": {
-    "pinyin": "fan1",
-    "definitions": [
-      "variant of 翻[fan1]"
-    ]
-  },
+  "翻": null,
   "翼": {
     "pinyin": "yi4",
     "definitions": [
       "wing",
-      "to assist",
-      "old variant of 翌"
+      "to assist"
     ]
   },
   "耀": {
@@ -18536,12 +17006,7 @@
       "final particle indicating enthusiasm etc"
     ]
   },
-  "耽": {
-    "pinyin": "dan1",
-    "definitions": [
-      "variant of 耽[dan1]"
-    ]
-  },
+  "耽": null,
   "耿": {
     "pinyin": "geng3",
     "definitions": [
@@ -18821,24 +17286,14 @@
       "resin"
     ]
   },
-  "胁": {
-    "pinyin": "xie2",
-    "definitions": [
-      "variant of 脅|胁[xie2]"
-    ]
-  },
+  "胁": null,
   "脊": {
     "pinyin": "ji3",
     "definitions": [
       "(bound form) spine; backbone"
     ]
   },
-  "胫": {
-    "pinyin": "jing4",
-    "definitions": [
-      "variant of 脛|胫[jing4]"
-    ]
-  },
+  "胫": null,
   "脱": {
     "pinyin": "tuo1",
     "definitions": [
@@ -18910,12 +17365,7 @@
       "swollen"
     ]
   },
-  "腮": {
-    "pinyin": "sai1",
-    "definitions": [
-      "variant of 腮[sai1]"
-    ]
-  },
+  "腮": null,
   "腰": {
     "pinyin": "yao1",
     "definitions": [
@@ -18937,12 +17387,7 @@
       "rich"
     ]
   },
-  "肠": {
-    "pinyin": "chang2",
-    "definitions": [
-      "old variant of 腸|肠[chang2]"
-    ]
-  },
+  "肠": null,
   "腹": {
     "pinyin": "fu4",
     "definitions": [
@@ -18956,12 +17401,7 @@
       "hip bone"
     ]
   },
-  "膀": {
-    "pinyin": "bang3",
-    "definitions": [
-      "old variant of 膀[bang3]"
-    ]
-  },
+  "膀": null,
   "膂": {
     "pinyin": "lu:3",
     "definitions": [
@@ -19000,12 +17440,7 @@
       "gum"
     ]
   },
-  "膳": {
-    "pinyin": "shan4",
-    "definitions": [
-      "variant of 膳[shan4]"
-    ]
-  },
+  "膳": null,
   "膺": {
     "pinyin": "ying1",
     "definitions": [
@@ -19044,12 +17479,7 @@
       "(bound form) the navel; the umbilicus"
     ]
   },
-  "膑": {
-    "pinyin": "bin4",
-    "definitions": [
-      "variant of 髕|髌[bin4]"
-    ]
-  },
+  "膑": null,
   "胪": {
     "pinyin": "lu2",
     "definitions": [
@@ -19058,12 +17488,7 @@
       "to display"
     ]
   },
-  "裸": {
-    "pinyin": "luo3",
-    "definitions": [
-      "variant of 裸[luo3]"
-    ]
-  },
+  "裸": null,
   "脏": {
     "pinyin": "zang1",
     "definitions": [
@@ -19084,12 +17509,7 @@
       "to lie"
     ]
   },
-  "臧": {
-    "pinyin": "zang4",
-    "definitions": [
-      "old variant of 藏[zang4]"
-    ]
-  },
+  "臧": null,
   "临": {
     "pinyin": "lin2",
     "definitions": [
@@ -19218,12 +17638,7 @@
       "ship"
     ]
   },
-  "般": {
-    "pinyin": "pan2",
-    "definitions": [
-      "see 般樂|般乐[pan2 le4]"
-    ]
-  },
+  "般": null,
   "舵": {
     "pinyin": "duo4",
     "definitions": [
@@ -19254,12 +17669,7 @@
       "cabin"
     ]
   },
-  "艟": {
-    "pinyin": "chong1",
-    "definitions": [
-      "see 艨艟, ancient leatherclad warship"
-    ]
-  },
+  "艟": null,
   "舰": {
     "pinyin": "jian4",
     "definitions": [
@@ -19292,30 +17702,14 @@
       "(coll.) color"
     ]
   },
-  "艳": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 艷|艳[yan4]"
-    ]
-  },
-  "草": {
-    "pinyin": "cao4",
-    "definitions": [
-      "variant of 肏[cao4]"
-    ]
-  },
-  "艾": {
-    "pinyin": "yi4",
-    "definitions": [
-      "variant of 刈[yi4]"
-    ]
-  },
+  "艳": null,
+  "草": null,
+  "艾": null,
   "芒": {
     "pinyin": "mang2",
     "definitions": [
       "awn (of cereals)",
-      "tip (of a blade)",
-      "variant of 邙, Mt Mang at Luoyang in Henan"
+      "tip (of a blade)"
     ]
   },
   "芝": {
@@ -19346,7 +17740,6 @@
   "花": {
     "pinyin": "hua1",
     "definitions": [
-      "variant of 花[hua1]",
       "blossom"
     ]
   },
@@ -19356,12 +17749,7 @@
       "fragrant"
     ]
   },
-  "芸": {
-    "pinyin": "yun2",
-    "definitions": [
-      "see 蕓薹|芸薹[yun2 tai2]"
-    ]
-  },
+  "芸": null,
   "芽": {
     "pinyin": "ya2",
     "definitions": [
@@ -19435,12 +17823,7 @@
       "(hemp)"
     ]
   },
-  "苹": {
-    "pinyin": "ping2",
-    "definitions": [
-      "used in 蘋果|苹果[ping2guo3]"
-    ]
-  },
+  "苹": null,
   "苻": {
     "pinyin": "fu2",
     "definitions": [
@@ -19555,12 +17938,7 @@
       "also 細辛|细辛[xi4 xin1]"
     ]
   },
-  "莩": {
-    "pinyin": "piao3",
-    "definitions": [
-      "variant of 殍[piao3]"
-    ]
-  },
+  "莩": null,
   "莫": {
     "pinyin": "mo4",
     "definitions": [
@@ -19675,12 +18053,7 @@
       "Phragmites communis"
     ]
   },
-  "葫": {
-    "pinyin": "hu2",
-    "definitions": [
-      "used in 葫蘆|葫芦[hu2lu5]"
-    ]
-  },
+  "葫": null,
   "葭": {
     "pinyin": "jia1",
     "definitions": [
@@ -19701,12 +18074,7 @@
       "to repair"
     ]
   },
-  "蒂": {
-    "pinyin": "di4",
-    "definitions": [
-      "variant of 蒂[di4]"
-    ]
-  },
+  "蒂": null,
   "蒐": {
     "pinyin": "sou1",
     "definitions": [
@@ -19877,12 +18245,7 @@
       "(old) Chinese mugwort"
     ]
   },
-  "薄": {
-    "pinyin": "bo4",
-    "definitions": [
-      "see 薄荷[bo4 he5]"
-    ]
-  },
+  "薄": null,
   "薛": {
     "pinyin": "xue1",
     "definitions": [
@@ -19937,8 +18300,7 @@
   "藐": {
     "pinyin": "miao3",
     "definitions": [
-      "to despise",
-      "variant of 渺[miao3]"
+      "to despise"
     ]
   },
   "藜": {
@@ -20099,12 +18461,7 @@
       "young dragon with horns"
     ]
   },
-  "蛇": {
-    "pinyin": "yi2",
-    "definitions": [
-      "used in 委蛇[wei1yi2]"
-    ]
-  },
+  "蛇": null,
   "虹": {
     "pinyin": "hong2",
     "definitions": [
@@ -20117,12 +18474,7 @@
       "sandfly"
     ]
   },
-  "蛙": {
-    "pinyin": "wa1",
-    "definitions": [
-      "old variant of 蛙[wa1]"
-    ]
-  },
+  "蛙": null,
   "蛛": {
     "pinyin": "zhu1",
     "definitions": [
@@ -20135,24 +18487,14 @@
       "a legendary dragon with the ability to control rain and floods"
     ]
   },
-  "蛱": {
-    "pinyin": "jia2",
-    "definitions": [
-      "see 蛺蝶|蛱蝶[jia2 die2]"
-    ]
-  },
+  "蛱": null,
   "蜀": {
     "pinyin": "Shu3",
     "definitions": [
       "short name for Sichuan 四川[Si4 chuan1] province"
     ]
   },
-  "蜈": {
-    "pinyin": "wu2",
-    "definitions": [
-      "used in 蜈蚣[wu2gong1]"
-    ]
-  },
+  "蜈": null,
   "蜉": {
     "pinyin": "fu2",
     "definitions": [
@@ -20160,19 +18502,8 @@
       "(wasp)"
     ]
   },
-  "螂": {
-    "pinyin": "lang2",
-    "definitions": [
-      "used in 螞螂|蚂螂[ma1lang2]",
-      "used in 螳螂[tang2lang2]"
-    ]
-  },
-  "蜘": {
-    "pinyin": "zhi1",
-    "definitions": [
-      "used in 蜘蛛[zhi1zhu1]"
-    ]
-  },
+  "螂": null,
+  "蜘": null,
   "蜜": {
     "pinyin": "mi4",
     "definitions": [
@@ -20191,12 +18522,7 @@
       "secondary rainbow"
     ]
   },
-  "蜾": {
-    "pinyin": "guo3",
-    "definitions": [
-      "used in 蜾蠃[guo3luo3]"
-    ]
-  },
+  "蜾": null,
   "蝎": {
     "pinyin": "xie1",
     "definitions": [
@@ -20221,12 +18547,7 @@
       "shrimp"
     ]
   },
-  "融": {
-    "pinyin": "rong2",
-    "definitions": [
-      "old variant of 融[rong2]"
-    ]
-  },
+  "融": null,
   "螟": {
     "pinyin": "ming2",
     "definitions": [
@@ -20252,12 +18573,7 @@
       "conch"
     ]
   },
-  "蝼": {
-    "pinyin": "lou2",
-    "definitions": [
-      "see 螻蛄|蝼蛄[lou2 gu1]"
-    ]
-  },
+  "蝼": null,
   "螀": {
     "pinyin": "jiang1",
     "definitions": [
@@ -20288,12 +18604,7 @@
       "ant"
     ]
   },
-  "蠃": {
-    "pinyin": "luo3",
-    "definitions": [
-      "used in 蜾蠃[guo3 luo3]"
-    ]
-  },
+  "蠃": null,
   "蝇": {
     "pinyin": "ying2",
     "definitions": [
@@ -20435,17 +18746,11 @@
       "unhealthy influences that cause disease (Chinese medicine)"
     ]
   },
-  "衽": {
-    "pinyin": "ren4",
-    "definitions": [
-      "variant of 衽[ren4]"
-    ]
-  },
+  "衽": null,
   "衿": {
     "pinyin": "jin1",
     "definitions": [
-      "collar",
-      "variant of 襟[jin1]"
+      "collar"
     ]
   },
   "袁": {
@@ -20467,12 +18772,7 @@
       "gown (lined)"
     ]
   },
-  "袒": {
-    "pinyin": "tan3",
-    "definitions": [
-      "old variant of 袒[tan3]"
-    ]
-  },
+  "袒": null,
   "袖": {
     "pinyin": "xiu4",
     "definitions": [
@@ -20569,12 +18869,7 @@
       "small"
     ]
   },
-  "裴": {
-    "pinyin": "pei2",
-    "definitions": [
-      "variant of 裴[pei2]"
-    ]
-  },
+  "裴": null,
   "裹": {
     "pinyin": "guo3",
     "definitions": [
@@ -20595,12 +18890,7 @@
       "coarse hemp cloth"
     ]
   },
-  "褒": {
-    "pinyin": "bao1",
-    "definitions": [
-      "variant of 褒[bao1]"
-    ]
-  },
+  "褒": null,
   "褔": {
     "pinyin": "fu4",
     "definitions": [
@@ -20702,12 +18992,7 @@
       "to appear"
     ]
   },
-  "觅": {
-    "pinyin": "mi4",
-    "definitions": [
-      "old variant of 覓|觅[mi4]"
-    ]
-  },
+  "觅": null,
   "亲": {
     "pinyin": "qing4",
     "definitions": [
@@ -20755,18 +19040,8 @@
       "ancient three legged wine vessel"
     ]
   },
-  "觔": {
-    "pinyin": "jin1",
-    "definitions": [
-      "variant of 筋[jin1]"
-    ]
-  },
-  "觜": {
-    "pinyin": "zui3",
-    "definitions": [
-      "variant of 嘴[zui3]"
-    ]
-  },
+  "觔": null,
+  "觜": null,
   "解": {
     "pinyin": "xie4",
     "definitions": [
@@ -20780,12 +19055,7 @@
       "horn wine container"
     ]
   },
-  "觫": {
-    "pinyin": "su4",
-    "definitions": [
-      "used in 觳觫[hu2 su4]"
-    ]
-  },
+  "觫": null,
   "觳": {
     "pinyin": "hu2",
     "definitions": [
@@ -20876,12 +19146,7 @@
       "mark"
     ]
   },
-  "讹": {
-    "pinyin": "e2",
-    "definitions": [
-      "variant of 訛|讹[e2]"
-    ]
-  },
+  "讹": null,
   "讶": {
     "pinyin": "ya4",
     "definitions": [
@@ -21019,12 +19284,7 @@
       "(bound form) to question closely; to interrogate"
     ]
   },
-  "话": {
-    "pinyin": "hua4",
-    "definitions": [
-      "old variant of 話|话[hua4]"
-    ]
-  },
+  "话": null,
   "该": {
     "pinyin": "gai1",
     "definitions": [
@@ -21039,12 +19299,7 @@
       "detailed"
     ]
   },
-  "酬": {
-    "pinyin": "chou2",
-    "definitions": [
-      "variant of 酬[chou2]"
-    ]
-  },
+  "酬": null,
   "诛": {
     "pinyin": "zhu1",
     "definitions": [
@@ -21131,12 +19386,7 @@
       "to induce"
     ]
   },
-  "说": {
-    "pinyin": "shuo1",
-    "definitions": [
-      "variant of 說|说[shuo1]"
-    ]
-  },
+  "说": null,
   "谁": {
     "pinyin": "shei2",
     "definitions": [
@@ -21398,12 +19648,7 @@
       "popular ballad"
     ]
   },
-  "谪": {
-    "pinyin": "zhe2",
-    "definitions": [
-      "variant of 謫|谪[zhe2]"
-    ]
-  },
+  "谪": null,
   "谬": {
     "pinyin": "miu4",
     "definitions": [
@@ -21456,12 +19701,7 @@
       "ridicule"
     ]
   },
-  "谭": {
-    "pinyin": "tan2",
-    "definitions": [
-      "variant of 談|谈[tan2]"
-    ]
-  },
+  "谭": null,
   "谱": {
     "pinyin": "pu3",
     "definitions": [
@@ -21537,12 +19777,7 @@
       "rebellion"
     ]
   },
-  "䜩": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 宴[yan4]"
-    ]
-  },
+  "䜩": null,
   "雠": {
     "pinyin": "chou2",
     "definitions": [
@@ -21624,8 +19859,7 @@
     "pinyin": "yu4",
     "definitions": [
       "happy",
-      "at one's ease",
-      "old variant of 與|与[yu4]"
+      "at one's ease"
     ]
   },
   "猪": {
@@ -21661,24 +19895,14 @@
       "sable or marten (genus Martes)"
     ]
   },
-  "貅": {
-    "pinyin": "xiu1",
-    "definitions": [
-      "see 貔貅[pi2 xiu1], composite mythical animal (originally 貅 was the female)"
-    ]
-  },
+  "貅": null,
   "貌": {
     "pinyin": "mao4",
     "definitions": [
       "appearance"
     ]
   },
-  "貔": {
-    "pinyin": "pi2",
-    "definitions": [
-      "see 貔貅[pi2 xiu1], composite mythical animal (originally 貔 was the male)"
-    ]
-  },
+  "貔": null,
   "贝": {
     "pinyin": "bei4",
     "definitions": [
@@ -21768,8 +19992,7 @@
   "赀": {
     "pinyin": "zi1",
     "definitions": [
-      "to estimate",
-      "variant of 資|资[zi1]"
+      "to estimate"
     ]
   },
   "贰": {
@@ -21942,12 +20165,7 @@
       "to bet; to gamble"
     ]
   },
-  "赖": {
-    "pinyin": "lai4",
-    "definitions": [
-      "variant of 賴|赖[lai4]"
-    ]
-  },
+  "赖": null,
   "赚": {
     "pinyin": "zuan4",
     "definitions": [
@@ -22000,12 +20218,7 @@
       "to profit"
     ]
   },
-  "赃": {
-    "pinyin": "zang1",
-    "definitions": [
-      "variant of 贓|赃[zang1]"
-    ]
-  },
+  "赃": null,
   "赎": {
     "pinyin": "shu2",
     "definitions": [
@@ -22060,12 +20273,7 @@
       "to start"
     ]
   },
-  "趁": {
-    "pinyin": "chen4",
-    "definitions": [
-      "old variant of 趁[chen4]"
-    ]
-  },
+  "趁": null,
   "超": {
     "pinyin": "chao1",
     "definitions": [
@@ -22179,12 +20387,7 @@
       "with"
     ]
   },
-  "迹": {
-    "pinyin": "ji4",
-    "definitions": [
-      "variant of 跡|迹[ji4]"
-    ]
-  },
+  "迹": null,
   "跣": {
     "pinyin": "xian3",
     "definitions": [
@@ -22220,12 +20423,7 @@
       "to palpitate"
     ]
   },
-  "踉": {
-    "pinyin": "liang4",
-    "definitions": [
-      "used in 踉蹌|踉跄[liang4qiang4]"
-    ]
-  },
+  "踉": null,
   "踊": {
     "pinyin": "yong3",
     "definitions": [
@@ -22281,12 +20479,7 @@
       "heel"
     ]
   },
-  "蹄": {
-    "pinyin": "ti2",
-    "definitions": [
-      "variant of 蹄[ti2]"
-    ]
-  },
+  "蹄": null,
   "蹇": {
     "pinyin": "jian3",
     "definitions": [
@@ -22341,18 +20534,8 @@
       "to hesitate"
     ]
   },
-  "蹬": {
-    "pinyin": "deng4",
-    "definitions": [
-      "used in 蹭蹬[ceng4deng4]"
-    ]
-  },
-  "蹶": {
-    "pinyin": "jue3",
-    "definitions": [
-      "see 尥蹶子[liao4 jue3 zi5]"
-    ]
-  },
+  "蹬": null,
+  "蹶": null,
   "躁": {
     "pinyin": "zao4",
     "definitions": [
@@ -22362,8 +20545,7 @@
   "跶": {
     "pinyin": "da1",
     "definitions": [
-      "to stumble",
-      "variant of 達|达[da2]"
+      "to stumble"
     ]
   },
   "躄": {
@@ -22372,18 +20554,8 @@
       "both feet crippled"
     ]
   },
-  "躇": {
-    "pinyin": "chu2",
-    "definitions": [
-      "used in 躊躇|踌躇[chou2chu2]"
-    ]
-  },
-  "踌": {
-    "pinyin": "chou2",
-    "definitions": [
-      "used in 躊躇|踌躇[chou2chu2]"
-    ]
-  },
+  "躇": null,
+  "踌": null,
   "跃": {
     "pinyin": "yue4",
     "definitions": [
@@ -22412,12 +20584,7 @@
       "one's morality and conduct"
     ]
   },
-  "躬": {
-    "pinyin": "gong1",
-    "definitions": [
-      "old variant of 躬[gong1]"
-    ]
-  },
+  "躬": null,
   "躲": {
     "pinyin": "duo3",
     "definitions": [
@@ -22457,36 +20624,21 @@
       "tall"
     ]
   },
-  "软": {
-    "pinyin": "ruan3",
-    "definitions": [
-      "variant of 軟|软[ruan3]"
-    ]
-  },
+  "软": null,
   "轸": {
     "pinyin": "zhen3",
     "definitions": [
       "square"
     ]
   },
-  "轴": {
-    "pinyin": "zhou4",
-    "definitions": [
-      "see 壓軸戲|压轴戏[ya1 zhou4 xi4]"
-    ]
-  },
+  "轴": null,
   "轵": {
     "pinyin": "zhi3",
     "definitions": [
       "end of axle outside of hub"
     ]
   },
-  "轲": {
-    "pinyin": "ke3",
-    "definitions": [
-      "used in 轗軻|𫐘轲[kan3ke3]"
-    ]
-  },
+  "轲": null,
   "较": {
     "pinyin": "jiao4",
     "definitions": [
@@ -22509,12 +20661,7 @@
       "to fill up"
     ]
   },
-  "辄": {
-    "pinyin": "zhe2",
-    "definitions": [
-      "variant of 輒|辄[zhe2]"
-    ]
-  },
+  "辄": null,
   "辅": {
     "pinyin": "fu3",
     "definitions": [
@@ -22710,12 +20857,7 @@
       "to be indebted to"
     ]
   },
-  "农": {
-    "pinyin": "nong2",
-    "definitions": [
-      "variant of 農|农[nong2]"
-    ]
-  },
+  "农": null,
   "迂": {
     "pinyin": "yu1",
     "definitions": [
@@ -22736,12 +20878,7 @@
       "rapid"
     ]
   },
-  "迆": {
-    "pinyin": "yi3",
-    "definitions": [
-      "variant of 迤[yi3]"
-    ]
-  },
+  "迆": null,
   "迎": {
     "pinyin": "ying2",
     "definitions": [
@@ -22849,12 +20986,7 @@
       "to flee"
     ]
   },
-  "逅": {
-    "pinyin": "hou4",
-    "definitions": [
-      "used in 邂逅[xie4hou4]"
-    ]
-  },
+  "逅": null,
   "逆": {
     "pinyin": "ni4",
     "definitions": [
@@ -22863,12 +20995,7 @@
       "to oppose"
     ]
   },
-  "逍": {
-    "pinyin": "xiao1",
-    "definitions": [
-      "used in 逍遙|逍遥[xiao1yao2]"
-    ]
-  },
+  "逍": null,
   "透": {
     "pinyin": "tou4",
     "definitions": [
@@ -22988,12 +21115,7 @@
       "crossroads"
     ]
   },
-  "逶": {
-    "pinyin": "wei1",
-    "definitions": [
-      "used in 逶迤[wei1yi2]"
-    ]
-  },
+  "逶": null,
   "逸": {
     "pinyin": "yi4",
     "definitions": [
@@ -23001,12 +21123,7 @@
       "outstanding"
     ]
   },
-  "遁": {
-    "pinyin": "dun4",
-    "definitions": [
-      "variant of 遁[dun4]"
-    ]
-  },
+  "遁": null,
   "遂": {
     "pinyin": "sui4",
     "definitions": [
@@ -23204,12 +21321,7 @@
       "to take a step"
     ]
   },
-  "邂": {
-    "pinyin": "xie4",
-    "definitions": [
-      "used in 邂逅[xie4hou4]"
-    ]
-  },
+  "邂": null,
   "还": {
     "pinyin": "huan2",
     "definitions": [
@@ -23256,8 +21368,7 @@
   "邕": {
     "pinyin": "yong1",
     "definitions": [
-      "city surrounded by a moat",
-      "old variant of 壅[yong1]"
+      "city surrounded by a moat"
     ]
   },
   "邙": {
@@ -23272,12 +21383,7 @@
       "mound"
     ]
   },
-  "邠": {
-    "pinyin": "bin1",
-    "definitions": [
-      "variant of 彬[bin1]"
-    ]
-  },
+  "邠": null,
   "邡": {
     "pinyin": "Fang1",
     "definitions": [
@@ -23315,18 +21421,8 @@
       "surname Tai"
     ]
   },
-  "邱": {
-    "pinyin": "qiu1",
-    "definitions": [
-      "variant of 丘[qiu1]"
-    ]
-  },
-  "邳": {
-    "pinyin": "pi1",
-    "definitions": [
-      "variant of 丕[pi1]"
-    ]
-  },
+  "邱": null,
+  "邳": null,
   "邴": {
     "pinyin": "bing3",
     "definitions": [
@@ -23401,12 +21497,7 @@
       "Ying, ancient capital of Chu 楚 in Hubei, Jianling county 江陵縣|江陵县"
     ]
   },
-  "郤": {
-    "pinyin": "xi4",
-    "definitions": [
-      "variant of 隙[xi4]"
-    ]
-  },
+  "郤": null,
   "部": {
     "pinyin": "bu4",
     "definitions": [
@@ -23472,12 +21563,7 @@
       "to despise"
     ]
   },
-  "鄞": {
-    "pinyin": "yin2",
-    "definitions": [
-      "used in 鄞州[Yin2zhou1], a district in Zhejiang"
-    ]
-  },
+  "鄞": null,
   "鄠": {
     "pinyin": "hu4",
     "definitions": [
@@ -23502,18 +21588,8 @@
       "surname Deng"
     ]
   },
-  "郑": {
-    "pinyin": "zheng4",
-    "definitions": [
-      "used in 鄭重|郑重[zheng4zhong4]"
-    ]
-  },
-  "邻": {
-    "pinyin": "lin2",
-    "definitions": [
-      "variant of 鄰|邻[lin2]"
-    ]
-  },
+  "郑": null,
+  "邻": null,
   "鄱": {
     "pinyin": "po2",
     "definitions": [
@@ -23690,12 +21766,7 @@
       "Taiwan pr. [si1]"
     ]
   },
-  "釆": {
-    "pinyin": "bian4",
-    "definitions": [
-      "old variant of 辨[bian4]"
-    ]
-  },
+  "釆": null,
   "释": {
     "pinyin": "shi4",
     "definitions": [
@@ -23740,12 +21811,7 @@
       "kettle"
     ]
   },
-  "针": {
-    "pinyin": "zhen1",
-    "definitions": [
-      "variant of 針|针[zhen1], needle"
-    ]
-  },
+  "针": null,
   "钓": {
     "pinyin": "diao4",
     "definitions": [
@@ -23806,8 +21872,7 @@
   "钜": {
     "pinyin": "ju4",
     "definitions": [
-      "hard iron",
-      "variant of 巨[ju4]"
+      "hard iron"
     ]
   },
   "钳": {
@@ -23896,12 +21961,7 @@
       "a saw (CL:把[ba3])"
     ]
   },
-  "鉴": {
-    "pinyin": "jian4",
-    "definitions": [
-      "variant of 鑑|鉴[jian4]"
-    ]
-  },
+  "鉴": null,
   "钢": {
     "pinyin": "gang1",
     "definitions": [
@@ -23915,12 +21975,7 @@
       "to bore"
     ]
   },
-  "锤": {
-    "pinyin": "chui2",
-    "definitions": [
-      "variant of 錘|锤[chui2]"
-    ]
-  },
+  "锤": null,
   "铮": {
     "pinyin": "zheng1",
     "definitions": [
@@ -24003,12 +22058,7 @@
       "amount of time; o'clock (CL:點|点[dian3],分[fen1],秒[miao3]) (as in 三點鐘|三点钟[san1dian3zhong1] \"three o'clock\" or \"three hours\" or 五分鐘|五分钟[wu3fen1zhong1] \"five minutes\" etc)"
     ]
   },
-  "锁": {
-    "pinyin": "suo3",
-    "definitions": [
-      "old variant of 鎖|锁[suo3]"
-    ]
-  },
+  "锁": null,
   "铠": {
     "pinyin": "kai3",
     "definitions": [
@@ -24182,12 +22232,7 @@
       "to thin out (seedlings)"
     ]
   },
-  "闵": {
-    "pinyin": "min3",
-    "definitions": [
-      "old variant of 憫|悯[min3]"
-    ]
-  },
+  "闵": null,
   "闹": {
     "pinyin": "nao4",
     "definitions": [
@@ -24439,12 +22484,7 @@
       "to assist"
     ]
   },
-  "阴": {
-    "pinyin": "yin1",
-    "definitions": [
-      "variant of 陰|阴[yin1]"
-    ]
-  },
+  "阴": null,
   "陈": {
     "pinyin": "chen2",
     "definitions": [
@@ -24621,12 +22661,7 @@
       "also pr. [qiao3]"
     ]
   },
-  "雁": {
-    "pinyin": "yan4",
-    "definitions": [
-      "variant of 雁[yan4]"
-    ]
-  },
+  "雁": null,
   "雄": {
     "pinyin": "xiong2",
     "definitions": [
@@ -24654,24 +22689,14 @@
       "ringed pheasant"
     ]
   },
-  "隽": {
-    "pinyin": "jun4",
-    "definitions": [
-      "variant of 俊[jun4]"
-    ]
-  },
+  "隽": null,
   "雌": {
     "pinyin": "ci2",
     "definitions": [
       "female"
     ]
   },
-  "雍": {
-    "pinyin": "yong1",
-    "definitions": [
-      "old variant of 雍[yong1]"
-    ]
-  },
+  "雍": null,
   "雒": {
     "pinyin": "luo4",
     "definitions": [
@@ -24828,24 +22853,14 @@
       "to show"
     ]
   },
-  "霹": {
-    "pinyin": "pi1",
-    "definitions": [
-      "used in 霹靂|霹雳[pi1li4] and 霹雷[pi1lei2]"
-    ]
-  },
+  "霹": null,
   "霁": {
     "pinyin": "ji4",
     "definitions": [
       "sky clearing up"
     ]
   },
-  "雳": {
-    "pinyin": "li4",
-    "definitions": [
-      "used in 霹靂|霹雳[pi1li4]"
-    ]
-  },
+  "雳": null,
   "灵": {
     "pinyin": "ling2",
     "definitions": [
@@ -24920,12 +22935,7 @@
       "to expel (from office)"
     ]
   },
-  "靴": {
-    "pinyin": "xue1",
-    "definitions": [
-      "variant of 靴[xue1]"
-    ]
-  },
+  "靴": null,
   "靶": {
     "pinyin": "ba3",
     "definitions": [
@@ -24997,12 +23007,7 @@
       "military strategy"
     ]
   },
-  "韭": {
-    "pinyin": "jiu3",
-    "definitions": [
-      "variant of 韭[jiu3]"
-    ]
-  },
+  "韭": null,
   "音": {
     "pinyin": "yin1",
     "definitions": [
@@ -25296,12 +23301,7 @@
       "to feed (a person or animal)"
     ]
   },
-  "饥": {
-    "pinyin": "ji1",
-    "definitions": [
-      "variant of 飢|饥[ji1]"
-    ]
-  },
+  "饥": null,
   "饬": {
     "pinyin": "chi4",
     "definitions": [
@@ -25340,12 +23340,7 @@
       "CL:張|张[zhang1]"
     ]
   },
-  "饷": {
-    "pinyin": "xiang3",
-    "definitions": [
-      "variant of 餉|饷[xiang3]"
-    ]
-  },
+  "饷": null,
   "养": {
     "pinyin": "yang3",
     "definitions": [
@@ -25382,12 +23377,7 @@
       "hungry"
     ]
   },
-  "馀": {
-    "pinyin": "yu2",
-    "definitions": [
-      "variant of 餘|余[yu2], remainder"
-    ]
-  },
+  "馀": null,
   "饯": {
     "pinyin": "jian4",
     "definitions": [
@@ -25406,12 +23396,7 @@
       "(bound form) to present (a gift)"
     ]
   },
-  "馒": {
-    "pinyin": "man2",
-    "definitions": [
-      "used in 饅頭|馒头[man2tou5]"
-    ]
-  },
+  "馒": null,
   "馑": {
     "pinyin": "jin3",
     "definitions": [
@@ -25495,7 +23480,6 @@
   "驭": {
     "pinyin": "yu4",
     "definitions": [
-      "variant of 御[yu4]",
       "to manage"
     ]
   },
@@ -25528,12 +23512,7 @@
       "donkey"
     ]
   },
-  "驳": {
-    "pinyin": "bo2",
-    "definitions": [
-      "variant of 駁|驳[bo2]"
-    ]
-  },
+  "驳": null,
   "驻": {
     "pinyin": "zhu4",
     "definitions": [
@@ -25567,12 +23546,7 @@
       "prince consort"
     ]
   },
-  "驼": {
-    "pinyin": "tuo2",
-    "definitions": [
-      "variant of 駝|驼[tuo2]"
-    ]
-  },
+  "驼": null,
   "驷": {
     "pinyin": "si4",
     "definitions": [
@@ -25685,12 +23659,7 @@
       "foul-smelling (variant of 臊[sao1])"
     ]
   },
-  "骡": {
-    "pinyin": "luo2",
-    "definitions": [
-      "variant of 騾|骡[luo2]"
-    ]
-  },
+  "骡": null,
   "蓦": {
     "pinyin": "mo4",
     "definitions": [
@@ -25951,18 +23920,8 @@
       "loach (family Cobitidae)"
     ]
   },
-  "鳌": {
-    "pinyin": "ao2",
-    "definitions": [
-      "variant of 鰲|鳌[ao2]"
-    ]
-  },
-  "鳖": {
-    "pinyin": "bie1",
-    "definitions": [
-      "variant of 鱉|鳖[bie1]"
-    ]
-  },
+  "鳌": null,
+  "鳖": null,
   "鳝": {
     "pinyin": "shan4",
     "definitions": [
@@ -26015,12 +23974,7 @@
       "to poison sb"
     ]
   },
-  "鸦": {
-    "pinyin": "ya1",
-    "definitions": [
-      "variant of 鴉|鸦[ya1]"
-    ]
-  },
+  "鸦": null,
   "鸳": {
     "pinyin": "yuan1",
     "definitions": [
@@ -26052,12 +24006,7 @@
       "swan"
     ]
   },
-  "鹉": {
-    "pinyin": "wu3",
-    "definitions": [
-      "used in 鸚鵡|鹦鹉[ying1wu3]"
-    ]
-  },
+  "鹉": null,
   "鹏": {
     "pinyin": "Peng2",
     "definitions": [
@@ -26156,18 +24105,8 @@
       "moose"
     ]
   },
-  "麟": {
-    "pinyin": "lin2",
-    "definitions": [
-      "see 麒麟[qi2lin2]"
-    ]
-  },
-  "麒": {
-    "pinyin": "qi2",
-    "definitions": [
-      "used in 麒麟[qi2lin2]"
-    ]
-  },
+  "麟": null,
+  "麒": null,
   "丽": {
     "pinyin": "li4",
     "definitions": [
@@ -26370,10 +24309,5 @@
       "(bound form) niche; shrine"
     ]
   },
-  "龟": {
-    "pinyin": "qiu1",
-    "definitions": [
-      "used in 龜茲|龟兹[Qiu1 ci2]"
-    ]
-  }
+  "龟": null
 }
