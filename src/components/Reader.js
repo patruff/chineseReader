@@ -3,6 +3,7 @@ import dictionary from '../data/reduced_dictionary.json';
 
 function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, onSwitch }) {
   const [text, setText] = useState('');
+  const [textVersion, setTextVersion] = useState('traditional');
   const [pageSize] = useState(1000);
   const [selectedWord, setSelectedWord] = useState(null);
   const containerRef = useRef(null);
@@ -14,26 +15,14 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
   };
 
   useEffect(() => {
-    const basePath = process.env.PUBLIC_URL || '';
-    const fullPath = `${basePath}/data/${currentText}.txt`;
-    console.log('Attempting to fetch from:', fullPath);
-    
-    fetch(fullPath)
-      .then(res => {
-        if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
-        }
-        return res.text();
-      })
-      .then(content => {
-        console.log('Content loaded, length:', content.length);
-        setText(content);
-      })
-      .catch(error => {
-        console.error('Error loading text:', error);
-        setText('Error loading text file');
-      });
-  }, [currentText]);
+    const filename = textVersion === 'traditional' 
+      ? 'fully_parsed_chinese.txt' 
+      : 'simplified_chinese.txt';
+      
+    fetch(`${process.env.PUBLIC_URL}/data/${filename}`)
+      .then(res => res.text())
+      .then(content => setText(content));
+  }, [textVersion]);
 
   // Parse text into tokens (individual characters or compound words)
   const parseText = (text) => {
@@ -116,6 +105,10 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
     }
   };
 
+  const toggleTextVersion = () => {
+    setTextVersion(current => current === 'traditional' ? 'simplified' : 'traditional');
+  };
+
   return (
     <div ref={containerRef} className="reader-container">
       <div className="controls">
@@ -127,6 +120,9 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
         </button>
         <button onClick={onSwitch}>
           Switch to {currentText === 'fully_parsed_chinese' ? 'English' : 'Chinese'}
+        </button>
+        <button onClick={toggleTextVersion}>
+          {textVersion === 'traditional' ? 'Switch to Simplified' : 'Switch to Traditional'}
         </button>
       </div>
 
