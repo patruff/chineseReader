@@ -1,16 +1,44 @@
 import React, { useState, useEffect } from 'react';
-import dictionary from '../data/reduced_dictionary.json';
 import './Reader.css';
 
 function Reader() {
   const [text, setText] = useState('');
+  const [dictionary, setDictionary] = useState({});
   const [selectedChar, setSelectedChar] = useState(null);
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
+  // Load both text and dictionary
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`)
-      .then(response => response.text())
-      .then(setText);
+    setIsLoading(true);
+    
+    // Load text
+    const loadText = fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`)
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to load text');
+        return response.text();
+      });
+
+    // Load dictionary
+    const loadDictionary = fetch(`${process.env.PUBLIC_URL}/data/reduced_dictionary.json`)
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to load dictionary');
+        return response.json();
+      });
+
+    // Load both in parallel
+    Promise.all([loadText, loadDictionary])
+      .then(([textContent, dict]) => {
+        setText(textContent);
+        setDictionary(dict);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error('Loading error:', err);
+        setError(err.message);
+        setIsLoading(false);
+      });
   }, []);
 
   const handleCharacterClick = (e, char) => {
@@ -18,11 +46,12 @@ function Reader() {
     const definition = dictionary[char];
     if (definition) {
       setSelectedChar(definition);
-      // Position popup near the clicked character
       setPopupPosition({
         x: e.clientX,
         y: e.clientY
       });
+    } else {
+      console.log('No definition found for:', char);
     }
   };
 
@@ -30,8 +59,22 @@ function Reader() {
     setSelectedChar(null);
   };
 
+  if (isLoading) {
+    return <div className="loading">Loading...</div>;
+  }
+
+  if (error) {
+    return <div className="error">Error: {error}</div>;
+  }
+
   return (
-    <div className="reader-container">
+    <div className="reader-container" onClick={(e) => {
+      // Close popup when clicking outside
+      if (!e.target.closest('.definition-popup') && 
+          !e.target.classList.contains('chinese-char')) {
+        closePopup();
+      }
+    }}>
       <div className="text-content">
         {Array.from(text).map((char, index) => (
           <span

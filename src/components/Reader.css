@@ -2,6 +2,21 @@
   position: relative;
   padding: 20px;
   line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
 }
 
 .text-content {
