@@ -3,7 +3,7 @@ import dictionary from '../data/reduced_dictionary.json';
 
 function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, onSwitch }) {
   const [text, setText] = useState('');
-  const [textVersion, setTextVersion] = useState('traditional');
+  const [textVersion, setTextVersion] = useState('simplified');
   const [pageSize] = useState(1000);
   const [selectedWord, setSelectedWord] = useState(null);
   const containerRef = useRef(null);
@@ -15,14 +15,14 @@ function Reader({ currentText, position, setPosition, bookmarks, setBookmarks, o
   };
 
   useEffect(() => {
-    const filename = textVersion === 'traditional' 
-      ? 'fully_parsed_chinese.txt' 
-      : 'simplified_chinese.txt';
-      
-    fetch(`${process.env.PUBLIC_URL}/data/${filename}`)
-      .then(res => res.text())
-      .then(content => setText(content));
-  }, [textVersion]);
+    fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`)
+      .then(response => response.text())
+      .then(content => {
+        setText(content);
+        console.log('Loaded text first 50 chars:', content.slice(0, 50));
+      })
+      .catch(error => console.error('Error loading text:', error));
+  }, []);
 
   // Parse text into tokens (individual characters or compound words)
   const parseText = (text) => {

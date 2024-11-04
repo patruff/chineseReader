@@ -97,3 +97,11 @@ console.log('Unique characters in text:', usedChars.size);
 console.log('\nText Sample:');
 console.log('Traditional (first 50):', traditionalText.slice(0, 50));
 console.log('Simplified (first 50):', simplifiedText.slice(0, 50));
+
+// After writing the file, let's verify it
+const savedText = fs.readFileSync(
+    path.join(__dirname, '../public/data/simplified_chinese.txt'), 
+    'utf8'
+);
+console.log('\nVerifying saved simplified text:');
+console.log('First 50 characters of saved file:', savedText.slice(0, 50));
