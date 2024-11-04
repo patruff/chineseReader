@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Reader.css';
 
-const CHARS_PER_PAGE = 1000; // Adjust this number as needed
+const CHARS_PER_PAGE = 800; // Reduced for better mobile viewing
 
 function Reader() {
   const [fullText, setFullText] = useState('');
@@ -99,15 +99,15 @@ function Reader() {
           disabled={currentPage === 0}
           className="nav-button"
         >
-          ← Previous Page
+          ←
         </button>
-        <span className="page-info">Page {currentPage + 1} of {totalPages}</span>
+        <span className="page-info">{currentPage + 1} / {totalPages}</span>
         <button 
           onClick={() => handlePageChange(currentPage + 1)}
           disabled={currentPage >= totalPages - 1}
           className="nav-button"
         >
-          Next Page →
+          →
         </button>
       </div>
 
