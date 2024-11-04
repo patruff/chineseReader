@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/chineseReader/static/css/main.c6c2e5ee.css",
-    "main.js": "/chineseReader/static/js/main.06f5c784.js",
+    "main.css": "/chineseReader/static/css/main.7e62453f.css",
+    "main.js": "/chineseReader/static/js/main.0e5c3df1.js",
     "service-worker.js": "/chineseReader/service-worker.js",
     "index.html": "/chineseReader/index.html",
-    "main.c6c2e5ee.css.map": "/chineseReader/static/css/main.c6c2e5ee.css.map",
-    "main.06f5c784.js.map": "/chineseReader/static/js/main.06f5c784.js.map"
+    "main.7e62453f.css.map": "/chineseReader/static/css/main.7e62453f.css.map",
+    "main.0e5c3df1.js.map": "/chineseReader/static/js/main.0e5c3df1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6c2e5ee.css",
-    "static/js/main.06f5c784.js"
+    "static/css/main.7e62453f.css",
+    "static/js/main.0e5c3df1.js"
   ]
 }
