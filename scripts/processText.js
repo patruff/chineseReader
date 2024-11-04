@@ -70,7 +70,7 @@ fs.writeFileSync(
 
 // Save the minimal dictionary
 fs.writeFileSync(
-    path.join(__dirname, '../src/data/minimal_dictionary.json'),
+    path.join(__dirname, '../public/data/minimal_dictionary.json'),
     JSON.stringify(minimalDictionary, null, 2)
 );
 
