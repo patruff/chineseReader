@@ -71,9 +71,18 @@ function Reader() {
     const definition = dictionary[char];
     if (definition) {
       setSelectedChar({ char, ...definition });
+      
+      // Calculate popup position
+      const rect = e.target.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // If clicked near top of viewport, show popup below
+      const showBelow = rect.top < 150;
+      
       setPopupPosition({
-        x: e.clientX,
-        y: e.clientY
+        x: rect.left + (rect.width / 2),
+        y: showBelow ? rect.bottom : rect.top,
+        position: showBelow ? 'below' : 'above'
       });
     }
   };
@@ -84,8 +93,26 @@ function Reader() {
 
   return (
     <div className="reader-container">
+      <div className="navigation-controls">
+        <button 
+          onClick={() => handlePageChange(currentPage - 1)}
+          disabled={currentPage === 0}
+          className="nav-button"
+        >
+          ← Previous Page
+        </button>
+        <span className="page-info">Page {currentPage + 1} of {totalPages}</span>
+        <button 
+          onClick={() => handlePageChange(currentPage + 1)}
+          disabled={currentPage >= totalPages - 1}
+          className="nav-button"
+        >
+          Next Page →
+        </button>
+      </div>
+
       <div className="text-content">
-        {Array.from(fullText).map((char, index) => (
+        {Array.from(getCurrentPageText()).map((char, index) => (
           <span
             key={index}
             className="chinese-char"
@@ -98,10 +125,16 @@ function Reader() {
 
       {selectedChar && (
         <div 
-          className="definition-popup"
+          className={`definition-popup ${popupPosition.position}`}
           style={{
             left: `${popupPosition.x}px`,
-            top: `${popupPosition.y}px`
+            top: popupPosition.position === 'below' 
+              ? `${popupPosition.y + 5}px` 
+              : 'auto',
+            bottom: popupPosition.position === 'above' 
+              ? `${window.innerHeight - popupPosition.y + 5}px` 
+              : 'auto',
+            transform: 'translateX(-50%)'
           }}
         >
           <div className="char-info">
