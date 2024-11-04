@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { traditionalized, simplified } = require('chinese-conv');
 
 // Read files
 const traditionalText = fs.readFileSync(
@@ -9,8 +8,18 @@ const traditionalText = fs.readFileSync(
 );
 const fullDictionary = require('../src/data/dictionary.json');
 
+// Create traditional to simplified mapping from dictionary
+const tradToSimp = {};
+Object.entries(fullDictionary).forEach(([char, entry]) => {
+  if (entry.traditional && entry.simplified) {
+    tradToSimp[entry.traditional] = entry.simplified;
+  }
+});
+
 // Convert text to simplified
-const simplifiedText = simplified(traditionalText);
+const simplifiedText = Array.from(traditionalText)
+  .map(char => tradToSimp[char] || char)
+  .join('');
 
 // Create a set of unique characters from the simplified text
 const uniqueChars = new Set(simplifiedText);
@@ -40,4 +49,8 @@ console.log('Text processing complete:');
 console.log('Original text length:', traditionalText.length);
 console.log('Simplified text length:', simplifiedText.length);
 console.log('Original dictionary size:', Object.keys(fullDictionary).length);
-console.log('Reduced dictionary size:', Object.keys(reducedDictionary).length); 
+console.log('Reduced dictionary size:', Object.keys(reducedDictionary).length);
+
+// Log a sample to verify conversion
+console.log('\nSample conversion (first 100 characters):');
+console.log('Traditional:', traditionalText.slice(0, 100)); 
