@@ -21,6 +21,15 @@ function Reader() {
     return fullText.slice(start, start + CHARS_PER_PAGE);
   }, [fullText, currentPage]);
 
+  // Add handlePageChange function
+  const handlePageChange = useCallback((newPage) => {
+    if (newPage >= 0 && newPage < totalPages) {
+      setSelectedChar(null); // Clear popup
+      setCurrentPage(newPage);
+      window.scrollTo(0, 0); // Scroll to top
+    }
+  }, [totalPages]);
+
   // Load text
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`)
