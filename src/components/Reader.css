@@ -6,6 +6,32 @@
   margin: 0 auto;
 }
 
+.pagination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 1.1em;
+}
+
 .loading {
   text-align: center;
   padding: 20px;
