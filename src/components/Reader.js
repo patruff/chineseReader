@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Reader.css';
 
-const CHARS_PER_PAGE = 800; // Reduced for better mobile viewing
+const CHARS_PER_PAGE = 500; // We can adjust this for the simpler text
 
 function Reader() {
   const [fullText, setFullText] = useState('');

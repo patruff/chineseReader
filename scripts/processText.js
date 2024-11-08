@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Read all files
-const traditionalText = fs.readFileSync(
-    path.join(__dirname, '../public/data/fully_parsed_chinese.txt'), 
+// Read files - update to use children's text
+const chineseText = fs.readFileSync(
+    path.join(__dirname, '../public/data/childrens3Kingdoms.txt'), 
     'utf8'
 );
 const englishText = fs.readFileSync(
@@ -15,8 +15,11 @@ let dictionaryText = fs.readFileSync(
     'utf8'
 );
 
+// Log the first bit of text to verify we're reading the right file
+console.log('First 100 characters of Chinese text:', chineseText.slice(0, 100));
+
 // Split texts into paragraphs/sentences for alignment
-const chineseParagraphs = traditionalText.split('\n').filter(p => p.trim());
+const chineseParagraphs = chineseText.split('\n').filter(p => p.trim());
 const englishParagraphs = englishText.split('\n').filter(p => p.trim());
 
 // Create context mapping
@@ -83,7 +86,7 @@ dictionaryEntries.forEach(entry => {
 
 // Convert text and track used characters
 const usedChars = new Set();
-const simplifiedText = Array.from(traditionalText)
+const simplifiedText = Array.from(chineseText)
     .map(char => {
         const simplified = tradToSimp[char] || char;
         usedChars.add(simplified);
@@ -146,26 +149,15 @@ usedChars.forEach(char => {
     }
 });
 
-// Save files
+// Save the text directly (no need for traditional->simplified conversion since it's already simplified)
 fs.writeFileSync(
     path.join(__dirname, '../public/data/simplified_chinese.txt'),
-    simplifiedText
+    chineseText
 );
 
-fs.writeFileSync(
-    path.join(__dirname, '../public/data/minimal_dictionary.json'),
-    JSON.stringify(minimalDictionary, null, 2)
-);
-
-// Log statistics and samples
+// Log statistics
 console.log('\nFinal Statistics:');
-console.log('Characters with definitions:', Object.keys(minimalDictionary).length);
-console.log('Characters without definitions:', 
-    Array.from(usedChars).filter(char => !minimalDictionary[char]).length);
-
-// Sample some common characters
-const sampleChars = ['說', '道', '人', '心', '見'];
-console.log('\nSample definitions:');
-sampleChars.forEach(char => {
-    console.log(`\n${char}:`, minimalDictionary[char]);
-});
+console.log('Text length:', chineseText.length);
+console.log('Number of paragraphs:', chineseParagraphs.length);
+console.log('Unique characters:', new Set(chineseText).size);
+console.log('Dictionary entries created:', Object.keys(minimalDictionary).length);
