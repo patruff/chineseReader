@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-// Read files - update to use children's text
+// Helper function to escape special RegExp characters
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Read files
 const chineseText = fs.readFileSync(
     path.join(__dirname, '../public/data/childrens3Kingdoms.txt'), 
     'utf8'
@@ -15,14 +20,17 @@ let dictionaryText = fs.readFileSync(
     'utf8'
 );
 
-// Log the first bit of text to verify we're reading the right file
-console.log('First 100 characters of Chinese text:', chineseText.slice(0, 100));
+// Clean the Chinese text - remove or replace problematic characters
+const cleanChineseText = chineseText
+    .replace(/[;；]/g, '。') // Replace semicolons with periods
+    .replace(/[()（）]/g, '') // Remove parentheses
+    .replace(/\s+/g, ' '); // Normalize whitespace
 
-// Split texts into paragraphs/sentences for alignment
-const chineseParagraphs = chineseText.split('\n').filter(p => p.trim());
+// Split texts into paragraphs
+const chineseParagraphs = cleanChineseText.split('\n').filter(p => p.trim());
 const englishParagraphs = englishText.split('\n').filter(p => p.trim());
 
-// Create context mapping
+// Create context mapping with escaped RegExp
 const contextMap = {};
 chineseParagraphs.forEach((chinesePara, index) => {
     if (englishParagraphs[index]) {
@@ -31,9 +39,11 @@ chineseParagraphs.forEach((chinesePara, index) => {
             if (!contextMap[char]) {
                 contextMap[char] = [];
             }
+            // Use escaped character in RegExp
+            const escapedChar = escapeRegExp(char);
             contextMap[char].push({
                 context: englishParagraphs[index],
-                frequency: (chinesePara.match(new RegExp(char, 'g')) || []).length
+                frequency: (chinesePara.match(new RegExp(escapedChar, 'g')) || []).length
             });
         });
     }
