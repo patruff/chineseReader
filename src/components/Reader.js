@@ -3,6 +3,13 @@ import './Reader.css';
 
 const CHARS_PER_PAGE = 500;
 
+// Define compound markers
+const COMPOUND_MARKERS = {
+    4: ['《', '》'],
+    3: ['【', '】'],
+    2: ['『', '』']
+};
+
 function Reader() {
   const [fullText, setFullText] = useState('');
   const [dictionary, setDictionary] = useState({});
@@ -12,7 +19,92 @@ function Reader() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Load text and dictionary
+  // Add processText function inside component
+  const processText = useCallback((text) => {
+    const segments = [];
+    let currentPos = 0;
+
+    // Create patterns for matching compounds
+    const patterns = Object.entries(COMPOUND_MARKERS).map(([length, [start, end]]) => {
+      const pattern = `\\${start}([^\\${end}]+)\\${end}`;
+      return { length, pattern };
+    });
+
+    const combinedPattern = new RegExp(patterns.map(p => p.pattern).join('|'), 'g');
+
+    let match;
+    while ((match = combinedPattern.exec(text)) !== null) {
+      // Add characters before the compound
+      if (match.index > currentPos) {
+        const beforeText = text.slice(currentPos, match.index);
+        segments.push(...Array.from(beforeText).map(char => ({
+          text: char,
+          type: 'char'
+        })));
+      }
+
+      // Determine compound type based on markers
+      const fullMatch = match[0];
+      const compoundText = match[1] || match[2] || match[3];
+      let compoundType;
+      
+      if (fullMatch.startsWith('《')) compoundType = 'compound-4';
+      else if (fullMatch.startsWith('【')) compoundType = 'compound-3';
+      else compoundType = 'compound-2';
+
+      segments.push({
+        text: compoundText,
+        type: compoundType
+      });
+
+      currentPos = match.index + fullMatch.length;
+    }
+
+    // Add remaining characters
+    if (currentPos < text.length) {
+      const remainingText = text.slice(currentPos);
+      segments.push(...Array.from(remainingText).map(char => ({
+        text: char,
+        type: 'char'
+      })));
+    }
+
+    return segments;
+  }, []);
+
+  const getCurrentPageText = useCallback(() => {
+    const start = currentPage * CHARS_PER_PAGE;
+    return fullText.slice(start, start + CHARS_PER_PAGE);
+  }, [fullText, currentPage]);
+
+  const handleClick = useCallback((e, segment) => {
+    e.preventDefault();
+    console.log('Clicked:', segment);
+    const definition = dictionary[segment.text];
+    if (definition) {
+      setSelectedChar({
+        char: segment.text,
+        ...definition
+      });
+      
+      const rect = e.target.getBoundingClientRect();
+      const showBelow = rect.top < 150;
+      setPopupPosition({
+        x: rect.left + (rect.width / 2),
+        y: showBelow ? rect.bottom : rect.top,
+        position: showBelow ? 'below' : 'above'
+      });
+    }
+  }, [dictionary]);
+
+  const handlePageChange = useCallback((newPage) => {
+    if (newPage >= 0 && newPage < Math.ceil(fullText.length / CHARS_PER_PAGE)) {
+      setSelectedChar(null);
+      setCurrentPage(newPage);
+      window.scrollTo(0, 0);
+    }
+  }, [fullText.length]);
+
   useEffect(() => {
     Promise.all([
       fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`),
@@ -25,7 +117,6 @@ function Reader() {
       .then(([text, dict]) => {
         console.log('Text loaded, length:', text.length);
         console.log('Dictionary loaded, entries:', Object.keys(dict).length);
-        console.log('Sample dictionary entry:', dict['说']); // Check a common character
         setFullText(text);
         setDictionary(dict);
         setIsLoading(false);
@@ -37,66 +128,8 @@ function Reader() {
       });
   }, []);
 
-  const handleCharacterClick = (e, char) => {
-    e.preventDefault();
-    console.log('Clicked character:', char);
-    console.log('Dictionary entry:', dictionary[char]);
-    
-    const definition = dictionary[char];
-    if (definition) {
-      console.log('Found definition:', definition);
-      setSelectedChar({ char, ...definition });
-      
-      // Calculate popup position
-      const rect = e.target.getBoundingClientRect();
-      const viewportHeight = window.innerHeight;
-      const showBelow = rect.top < 150;
-      
-      setPopupPosition({
-        x: rect.left + (rect.width / 2),
-        y: showBelow ? rect.bottom : rect.top,
-        position: showBelow ? 'below' : 'above'
-      });
-    } else {
-      console.log('No definition found for character:', char);
-    }
-  };
-
-  // Calculate total pages
-  const totalPages = Math.ceil((fullText?.length || 0) / CHARS_PER_PAGE);
-
-  // Get current page text
-  const getCurrentPageText = useCallback(() => {
-    const start = currentPage * CHARS_PER_PAGE;
-    return fullText.slice(start, start + CHARS_PER_PAGE);
-  }, [fullText, currentPage]);
-
-  // Add handlePageChange function
-  const handlePageChange = useCallback((newPage) => {
-    if (newPage >= 0 && newPage < totalPages) {
-      setSelectedChar(null); // Clear popup
-      setCurrentPage(newPage);
-      window.scrollTo(0, 0); // Scroll to top
-    }
-  }, [totalPages]);
-
-  const renderText = useCallback((text) => {
-    const segments = processText(text);
-    
-    return segments.map((segment, index) => (
-      <span
-        key={index}
-        className={`chinese-text ${segment.type}`}
-        onClick={(e) => handleCharacterClick(e, segment.text)}
-      >
-        {segment.text}
-      </span>
-    ));
-  }, [handleCharacterClick]);
-
-  if (isLoading) {
-    return <div className="loading">Loading...</div>;
-  }
+  if (isLoading) return <div className="loading">Loading...</div>;
+  if (error) return <div className="error">{error}</div>;
 
   return (
     <div className="reader-container">
@@ -108,10 +141,10 @@ function Reader() {
         >
           ←
         </button>
-        <span className="page-info">{currentPage + 1} / {totalPages}</span>
+        <span className="page-info">{currentPage + 1} / {Math.ceil(fullText.length / CHARS_PER_PAGE)}</span>
         <button 
           onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage >= totalPages - 1}
+          disabled={currentPage >= Math.ceil(fullText.length / CHARS_PER_PAGE) - 1}
           className="nav-button"
         >
           →
@@ -119,7 +152,15 @@ function Reader() {
       </div>
 
       <div className="text-content">
-        {renderText(getCurrentPageText())}
+        {processText(getCurrentPageText()).map((segment, index) => (
+          <span
+            key={index}
+            className={`chinese-text ${segment.type}`}
+            onClick={(e) => handleClick(e, segment)}
+          >
+            {segment.text}
+          </span>
+        ))}
       </div>
 
       {selectedChar && (
@@ -152,4 +193,4 @@ function Reader() {
   );
 }
 
-export default Reader; 
+export default Reader;
