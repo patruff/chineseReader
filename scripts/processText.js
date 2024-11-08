@@ -124,20 +124,39 @@ const dictionaryEntries = entryStrings.map((entry, index) => {
     }
 }).filter(entry => entry !== null);
 
-// Create dictionary with both compounds and individual characters
+// Helper function to extract compounds with their positions
+function extractCompoundsWithPositions(text) {
+    const compounds = new Map(); // Map to store compound and its positions
+    let compoundRanges = []; // Store start and end positions of compounds
+    
+    // Extract all compounds with their positions
+    function findCompounds(regex) {
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+            compounds.set(match[1], {
+                text: match[1],
+                start: match.index,
+                end: match.index + match[0].length
+            });
+            compoundRanges.push([match.index, match.index + match[0].length]);
+        }
+    }
+    
+    // Find all compounds with their markers
+    findCompounds(/『([^』]+)』/g);  // 2-character
+    findCompounds(/【([^】]+)】/g);  // 3-character
+    findCompounds(/《([^》]+)》/g);  // 4-character
+    
+    return { compounds, compoundRanges };
+}
+
+// Create minimal dictionary
+const { compounds, compoundRanges } = extractCompoundsWithPositions(chineseText);
 const minimalDictionary = {};
 
-// First process compounds
-const compounds = extractCompounds(chineseText);
-console.log('Found compounds:', compounds.size);
-
-compounds.forEach(compound => {
-    // Find dictionary entry for compound
-    const entry = dictionaryEntries.find(e => 
-        e.simplified === compound || 
-        e.traditional === compound
-    );
-    
+// Process compounds first
+compounds.forEach((info, compound) => {
+    const entry = dictionaryEntries.find(e => e.simplified === compound);
     if (entry) {
         minimalDictionary[compound] = {
             type: 'compound',
@@ -147,62 +166,37 @@ compounds.forEach(compound => {
                 !def.startsWith('old variant of')
             ).slice(0, 2)
         };
-        
-        // Add reference for each character in compound
-        Array.from(compound).forEach(char => {
-            minimalDictionary[`ref:${char}`] = compound;
-        });
     }
 });
 
-// Then process individual characters
-dictionaryEntries.forEach(entry => {
-    // Only process entries with simplified characters
-    const char = entry.simplified;
-    if (char && char.length === 1 && uniqueChars.has(char)) {
-        // Filter out unhelpful definitions
-        const goodDefs = entry.definitions.filter(def => 
-            !def.startsWith('variant of') &&
-            !def.startsWith('old variant of') &&
-            !def.startsWith('used in') &&
-            !def.startsWith('see ') &&
-            def.length > 1
-        );
+// Helper function to check if a character is part of any compound
+function isInCompound(position) {
+    return compoundRanges.some(([start, end]) => position >= start && position < end);
+}
 
-        if (goodDefs.length > 0) {
-            minimalDictionary[char] = {
-                pinyin: entry.pinyin,
-                definitions: goodDefs.slice(0, 3) // Keep top 3 most meaningful definitions
-            };
+// Process individual characters
+let pos = 0;
+while (pos < chineseText.length) {
+    if (!isInCompound(pos)) {
+        const char = chineseText[pos];
+        if (!minimalDictionary[char]) {
+            const entry = dictionaryEntries.find(e => e.simplified === char);
+            if (entry) {
+                minimalDictionary[char] = {
+                    type: 'char',
+                    pinyin: entry.pinyin,
+                    definitions: entry.definitions.filter(def => 
+                        !def.startsWith('variant of') &&
+                        !def.startsWith('old variant of')
+                    ).slice(0, 2)
+                };
+            }
         }
     }
-});
+    pos++;
+}
 
-// For characters without definitions, look for compound words
-Array.from(uniqueChars).forEach(char => {
-    if (!minimalDictionary[char]) {
-        // Find compound words containing this character
-        const compounds = dictionaryEntries.filter(entry => 
-            entry.simplified && 
-            entry.simplified.includes(char) && 
-            entry.simplified.length > 1
-        );
-
-        if (compounds.length > 0) {
-            // Use the shortest compound word for clarity
-            const bestCompound = compounds
-                .sort((a, b) => a.simplified.length - b.simplified.length)[0];
-            
-            const charIndex = bestCompound.simplified.indexOf(char);
-            minimalDictionary[char] = {
-                pinyin: bestCompound.pinyin.split(' ')[charIndex],
-                definitions: [`Found in: ${bestCompound.simplified} (${bestCompound.definitions[0]})`]
-            };
-        }
-    }
-});
-
-// Save only the necessary files
+// Save dictionary
 fs.writeFileSync(
     path.join(__dirname, '../public/data/minimal_dictionary.json'),
     JSON.stringify(minimalDictionary, null, 2)
@@ -210,8 +204,9 @@ fs.writeFileSync(
 
 // Log statistics
 console.log('\nFinal Statistics:');
-console.log('Text length:', cleanChineseText.length);
-console.log('Unique characters:', uniqueChars.size);
-console.log('Characters with definitions:', Object.keys(minimalDictionary).length);
-console.log('Characters without definitions:', 
-    Array.from(uniqueChars).filter(char => !minimalDictionary[char]).length);
+console.log('Text length:', chineseText.length);
+console.log('Compounds found:', compounds.size);
+console.log('Individual characters:', Object.keys(minimalDictionary).filter(k => 
+    minimalDictionary[k].type === 'char'
+).length);
+console.log('Total dictionary entries:', Object.keys(minimalDictionary).length);
