@@ -107,7 +107,7 @@ function Reader() {
 
   useEffect(() => {
     Promise.all([
-      fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`),
+      fetch(`${process.env.PUBLIC_URL}/data/parsed_childrens3Kingdoms.txt`),
       fetch(`${process.env.PUBLIC_URL}/data/minimal_dictionary.json`)
     ])
       .then(([textResponse, dictResponse]) => Promise.all([

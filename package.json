@@ -22,7 +22,8 @@
     "deploy": "gh-pages -d build",
     "process-dict": "node scripts/processDictionary.js",
     "process-text": "node scripts/processText.js",
-    "prebuild": "node scripts/processText.js"
+    "prebuild": "node scripts/processText.js",
+    "postbuild": "cp public/data/parsed_childrens3Kingdoms.txt build/data/ && cp public/data/minimal_dictionary.json build/data/"
   },
   "eslintConfig": {
     "extends": [

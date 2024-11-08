@@ -84,13 +84,9 @@ function processText(text) {
     return segments;
 }
 
-// Read files
+// Read files - only using parsed_childrens3Kingdoms.txt now
 const chineseText = fs.readFileSync(
-    path.join(__dirname, '../public/data/childrens3Kingdoms.txt'), 
-    'utf8'
-);
-const englishText = fs.readFileSync(
-    path.join(__dirname, '../public/data/english.txt'), 
+    path.join(__dirname, '../public/data/parsed_childrens3Kingdoms.txt'), 
     'utf8'
 );
 let dictionaryText = fs.readFileSync(
@@ -170,12 +166,7 @@ Array.from(uniqueChars).forEach(char => {
     }
 });
 
-// Save files
-fs.writeFileSync(
-    path.join(__dirname, '../public/data/simplified_chinese.txt'),
-    cleanChineseText
-);
-
+// Save only the necessary files
 fs.writeFileSync(
     path.join(__dirname, '../public/data/minimal_dictionary.json'),
     JSON.stringify(minimalDictionary, null, 2)
@@ -185,4 +176,6 @@ fs.writeFileSync(
 console.log('\nFinal Statistics:');
 console.log('Text length:', cleanChineseText.length);
 console.log('Unique characters:', uniqueChars.size);
-console.log('Characters without definitions:', Object.keys(minimalDictionary).length);
+console.log('Characters with definitions:', Object.keys(minimalDictionary).length);
+console.log('Characters without definitions:', 
+    Array.from(uniqueChars).filter(char => !minimalDictionary[char]).length);
