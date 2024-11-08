@@ -1,16 +1,66 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Reader.css';
 
-const CHARS_PER_PAGE = 500; // We can adjust this for the simpler text
+const CHARS_PER_PAGE = 500;
 
 function Reader() {
   const [fullText, setFullText] = useState('');
-  const [currentPage, setCurrentPage] = useState(0);
   const [dictionary, setDictionary] = useState({});
   const [selectedChar, setSelectedChar] = useState(null);
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
+  const [currentPage, setCurrentPage] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // Load text and dictionary
+  useEffect(() => {
+    Promise.all([
+      fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`),
+      fetch(`${process.env.PUBLIC_URL}/data/minimal_dictionary.json`)
+    ])
+      .then(([textResponse, dictResponse]) => Promise.all([
+        textResponse.text(),
+        dictResponse.json()
+      ]))
+      .then(([text, dict]) => {
+        console.log('Text loaded, length:', text.length);
+        console.log('Dictionary loaded, entries:', Object.keys(dict).length);
+        console.log('Sample dictionary entry:', dict['说']); // Check a common character
+        setFullText(text);
+        setDictionary(dict);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error('Loading error:', err);
+        setError(err.message);
+        setIsLoading(false);
+      });
+  }, []);
+
+  const handleCharacterClick = (e, char) => {
+    e.preventDefault();
+    console.log('Clicked character:', char);
+    console.log('Dictionary entry:', dictionary[char]);
+    
+    const definition = dictionary[char];
+    if (definition) {
+      console.log('Found definition:', definition);
+      setSelectedChar({ char, ...definition });
+      
+      // Calculate popup position
+      const rect = e.target.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      const showBelow = rect.top < 150;
+      
+      setPopupPosition({
+        x: rect.left + (rect.width / 2),
+        y: showBelow ? rect.bottom : rect.top,
+        position: showBelow ? 'below' : 'above'
+      });
+    } else {
+      console.log('No definition found for character:', char);
+    }
+  };
 
   // Calculate total pages
   const totalPages = Math.ceil((fullText?.length || 0) / CHARS_PER_PAGE);
@@ -29,72 +79,6 @@ function Reader() {
       window.scrollTo(0, 0); // Scroll to top
     }
   }, [totalPages]);
-
-  // Load text
-  useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/data/simplified_chinese.txt`)
-      .then(response => response.text())
-      .then(text => {
-        setFullText(text);
-        setIsLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading text:', err);
-        setError('Failed to load text');
-        setIsLoading(false);
-      });
-  }, []);
-
-  // Load dictionary entries for current page
-  useEffect(() => {
-    if (!fullText) return;
-
-    const pageText = getCurrentPageText();
-    const uniqueChars = new Set(pageText);
-
-    // Only load dictionary entries we don't already have
-    const charsToLoad = Array.from(uniqueChars).filter(char => !dictionary[char]);
-
-    if (charsToLoad.length === 0) return;
-
-    fetch(`${process.env.PUBLIC_URL}/data/minimal_dictionary.json`)
-      .then(response => response.json())
-      .then(fullDict => {
-        const newEntries = {};
-        charsToLoad.forEach(char => {
-          if (fullDict[char]) {
-            newEntries[char] = fullDict[char];
-          }
-        });
-        setDictionary(prev => ({ ...prev, ...newEntries }));
-      })
-      .catch(err => {
-        console.error('Error loading dictionary:', err);
-        setError('Failed to load dictionary');
-        setIsLoading(false);
-      });
-  }, [fullText, currentPage, dictionary]);
-
-  const handleCharacterClick = (e, char) => {
-    e.preventDefault();
-    const definition = dictionary[char];
-    if (definition) {
-      setSelectedChar({ char, ...definition });
-      
-      // Calculate popup position
-      const rect = e.target.getBoundingClientRect();
-      const viewportHeight = window.innerHeight;
-      
-      // If clicked near top of viewport, show popup below
-      const showBelow = rect.top < 150;
-      
-      setPopupPosition({
-        x: rect.left + (rect.width / 2),
-        y: showBelow ? rect.bottom : rect.top,
-        position: showBelow ? 'below' : 'above'
-      });
-    }
-  };
 
   if (isLoading) {
     return <div className="loading">Loading...</div>;
@@ -146,6 +130,7 @@ function Reader() {
             transform: 'translateX(-50%)'
           }}
         >
+          <button className="close-button" onClick={() => setSelectedChar(null)}>×</button>
           <div className="char-info">
             <h3>{selectedChar.char}</h3>
             <p className="pinyin">{selectedChar.pinyin}</p>
