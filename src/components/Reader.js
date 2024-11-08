@@ -79,21 +79,40 @@ function Reader() {
 
   const handleClick = useCallback((e, segment) => {
     e.preventDefault();
-    console.log('Clicked:', segment);
-    const definition = dictionary[segment.text];
+    let definition;
+    
+    if (segment.type.startsWith('compound-')) {
+        // If clicking a compound, look up the whole compound
+        definition = dictionary[segment.text];
+    } else {
+        // If clicking a single character, check if it's part of a compound
+        const compoundRef = dictionary[`ref:${segment.text}`];
+        if (compoundRef) {
+            // If it's part of a compound, get the compound definition
+            definition = dictionary[compoundRef];
+            segment = { text: compoundRef, type: 'compound' };
+        } else {
+            // Otherwise get the character definition
+            definition = dictionary[segment.text];
+        }
+    }
+
     if (definition) {
-      setSelectedChar({
-        char: segment.text,
-        ...definition
-      });
-      
-      const rect = e.target.getBoundingClientRect();
-      const showBelow = rect.top < 150;
-      setPopupPosition({
-        x: rect.left + (rect.width / 2),
-        y: showBelow ? rect.bottom : rect.top,
-        position: showBelow ? 'below' : 'above'
-      });
+        setSelectedChar({
+            char: segment.text,
+            type: segment.type,
+            ...definition
+        });
+        
+        const rect = e.target.getBoundingClientRect();
+        const showBelow = rect.top < 150;
+        setPopupPosition({
+            x: rect.left + (rect.width / 2),
+            y: showBelow ? rect.bottom : rect.top,
+            position: showBelow ? 'below' : 'above'
+        });
+    } else {
+        console.log('No definition found for:', segment.text);
     }
   }, [dictionary]);
 
@@ -179,12 +198,14 @@ function Reader() {
         >
           <button className="close-button" onClick={() => setSelectedChar(null)}>×</button>
           <div className="char-info">
-            <h3>{selectedChar.char}</h3>
+            <h3 className={selectedChar.type?.startsWith('compound') ? 'compound' : ''}>
+                {selectedChar.char}
+            </h3>
             <p className="pinyin">{selectedChar.pinyin}</p>
             <ul className="definitions">
-              {selectedChar.definitions.map((def, index) => (
-                <li key={index}>{def}</li>
-              ))}
+                {selectedChar.definitions.map((def, index) => (
+                    <li key={index}>{def}</li>
+                ))}
             </ul>
           </div>
         </div>

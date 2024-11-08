@@ -12,22 +12,28 @@ function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-// Helper function to extract compounds
+// Helper function to extract compounds from text
 function extractCompounds(text) {
-    const compounds = {
-        2: new Set(),
-        3: new Set(),
-        4: new Set()
-    };
+    const compounds = new Set();
     
-    // Extract each type of compound
-    Object.entries(COMPOUND_MARKERS).forEach(([length, [start, end]]) => {
-        const regex = new RegExp(`${escapeRegExp(start)}([^${escapeRegExp(end)}]+)${escapeRegExp(end)}`, 'g');
-        let match;
-        while ((match = regex.exec(text)) !== null) {
-            compounds[length].add(match[1]);
-        }
-    });
+    // Extract 2-character compounds
+    const twoCharRegex = /『([^』]+)』/g;
+    let match;
+    while ((match = twoCharRegex.exec(text)) !== null) {
+        compounds.add(match[1]);
+    }
+    
+    // Extract 3-character compounds
+    const threeCharRegex = /【([^】]+)】/g;
+    while ((match = threeCharRegex.exec(text)) !== null) {
+        compounds.add(match[1]);
+    }
+    
+    // Extract 4-character compounds
+    const fourCharRegex = /《([^》]+)》/g;
+    while ((match = fourCharRegex.exec(text)) !== null) {
+        compounds.add(match[1]);
+    }
     
     return compounds;
 }
@@ -118,8 +124,38 @@ const dictionaryEntries = entryStrings.map((entry, index) => {
     }
 }).filter(entry => entry !== null);
 
-// Create minimal dictionary with only simplified characters that appear in our text
+// Create dictionary with both compounds and individual characters
 const minimalDictionary = {};
+
+// First process compounds
+const compounds = extractCompounds(chineseText);
+console.log('Found compounds:', compounds.size);
+
+compounds.forEach(compound => {
+    // Find dictionary entry for compound
+    const entry = dictionaryEntries.find(e => 
+        e.simplified === compound || 
+        e.traditional === compound
+    );
+    
+    if (entry) {
+        minimalDictionary[compound] = {
+            type: 'compound',
+            pinyin: entry.pinyin,
+            definitions: entry.definitions.filter(def => 
+                !def.startsWith('variant of') &&
+                !def.startsWith('old variant of')
+            ).slice(0, 2)
+        };
+        
+        // Add reference for each character in compound
+        Array.from(compound).forEach(char => {
+            minimalDictionary[`ref:${char}`] = compound;
+        });
+    }
+});
+
+// Then process individual characters
 dictionaryEntries.forEach(entry => {
     // Only process entries with simplified characters
     const char = entry.simplified;

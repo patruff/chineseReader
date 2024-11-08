@@ -166,4 +166,14 @@
 
 .definitions li {
   margin: 3px 0;
+}
+
+.char-info h3.compound {
+  color: #2196F3;  /* Match the compound color */
+  font-size: 1.8em;
+}
+
+.definition-popup {
+  min-width: 200px;
+  max-width: 300px;
 } 
