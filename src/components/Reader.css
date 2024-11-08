@@ -62,14 +62,51 @@
   padding-bottom: 70px; /* Space for navigation */
 }
 
-.chinese-char {
+.chinese-text {
   cursor: pointer;
   display: inline-block;
   padding: 1px 2px;
 }
 
-.chinese-char:hover {
+.chinese-text.char {
+  color: #000;
+}
+
+.chinese-text.compound-2 {
+  color: #2196F3;  /* Blue for 2-character compounds */
+  padding: 1px 4px;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+.chinese-text.compound-3 {
+  color: #4CAF50;  /* Green for 3-character compounds */
+  padding: 1px 4px;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+.chinese-text.compound-4 {
+  color: #9C27B0;  /* Purple for 4-character compounds */
+  padding: 1px 4px;
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+.chinese-text.char:hover {
   background-color: #f0f0f0;
+}
+
+.chinese-text.compound-2:hover {
+  background-color: #E3F2FD;
+}
+
+.chinese-text.compound-3:hover {
+  background-color: #E8F5E9;
+}
+
+.chinese-text.compound-4:hover {
+  background-color: #F3E5F5;
 }
 
 .definition-popup {

@@ -1,9 +1,87 @@
 const fs = require('fs');
 const path = require('path');
 
+const COMPOUND_MARKERS = {
+    4: ['《', '》'],
+    3: ['【', '】'],
+    2: ['『', '』']
+};
+
 // Helper function to escape special RegExp characters
 function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Helper function to extract compounds
+function extractCompounds(text) {
+    const compounds = {
+        2: new Set(),
+        3: new Set(),
+        4: new Set()
+    };
+    
+    // Extract each type of compound
+    Object.entries(COMPOUND_MARKERS).forEach(([length, [start, end]]) => {
+        const regex = new RegExp(`${escapeRegExp(start)}([^${escapeRegExp(end)}]+)${escapeRegExp(end)}`, 'g');
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+            compounds[length].add(match[1]);
+        }
+    });
+    
+    return compounds;
+}
+
+// Process text into segments
+function processText(text) {
+    const segments = [];
+    let currentPos = 0;
+
+    // Create a combined regex for all markers
+    const markerPairs = Object.values(COMPOUND_MARKERS);
+    const combinedPattern = markerPairs
+        .map(([start, end]) => `${escapeRegExp(start)}([^${escapeRegExp(end)}]+)${escapeRegExp(end)}`)
+        .join('|');
+    const compoundRegex = new RegExp(combinedPattern, 'g');
+
+    let match;
+    while ((match = compoundRegex.exec(text)) !== null) {
+        // Add any text before the compound
+        if (match.index > currentPos) {
+            const beforeText = text.slice(currentPos, match.index);
+            segments.push(...Array.from(beforeText).map(char => ({
+                text: char,
+                type: 'char'
+            })));
+        }
+
+        // Determine compound type
+        const fullMatch = match[0];
+        const compoundText = match[1] || match[2] || match[3]; // Depending on which group matched
+        let compoundType;
+        
+        if (fullMatch.startsWith('《')) compoundType = '4';
+        else if (fullMatch.startsWith('【')) compoundType = '3';
+        else compoundType = '2';
+
+        segments.push({
+            text: compoundText,
+            type: `compound-${compoundType}`
+        });
+
+        currentPos = match.index + fullMatch.length;
+    }
+
+    // Add any remaining text
+    if (currentPos < text.length) {
+        const remainingText = text.slice(currentPos);
+        segments.push(...Array.from(remainingText).map(char => ({
+            text: char,
+            type: 'char'
+        })));
+    }
+
+    return segments;
 }
 
 // Read files

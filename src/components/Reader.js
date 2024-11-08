@@ -80,6 +80,20 @@ function Reader() {
     }
   }, [totalPages]);
 
+  const renderText = useCallback((text) => {
+    const segments = processText(text);
+    
+    return segments.map((segment, index) => (
+      <span
+        key={index}
+        className={`chinese-text ${segment.type}`}
+        onClick={(e) => handleCharacterClick(e, segment.text)}
+      >
+        {segment.text}
+      </span>
+    ));
+  }, [handleCharacterClick]);
+
   if (isLoading) {
     return <div className="loading">Loading...</div>;
   }
@@ -105,15 +119,7 @@ function Reader() {
       </div>
 
       <div className="text-content">
-        {Array.from(getCurrentPageText()).map((char, index) => (
-          <span
-            key={index}
-            className="chinese-char"
-            onClick={(e) => handleCharacterClick(e, char)}
-          >
-            {char}
-          </span>
-        ))}
+        {renderText(getCurrentPageText())}
       </div>
 
       {selectedChar && (
